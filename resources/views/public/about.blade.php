@@ -164,7 +164,7 @@ de faire financer sa formation par un organisme spécialisé.</p>
     <br>
                  <!-- Carte pour FDFP -->
             <div class="col-lg-6 col-md-6 col-12 mb-3">
-                <div class="card" style="height:230 px">
+                <div class="card" style="height:320px">
                     <div class="card-body text-center">
                         <div class="display-4 text-primary mb-3">
                         <img src="../../assets/Logo-FDFP-recadre.png" width="150px">                        </div>
@@ -179,7 +179,7 @@ de faire financer sa formation par un organisme spécialisé.</p>
 
             <!-- Carte pour Partenaire Bancaire -->
             <div class="col-lg-6 col-md-6 col-12 mb-3">
-                <div class="card" style="height:230 px">
+                <div class="card" style="height:320px">
                     <div class="card-body text-center">
                         <div class="display-4 text-primary mb-3">
                         <img src="../../assets/bank-64.png" width="90px">                          </div>
