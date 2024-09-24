@@ -82,22 +82,38 @@
                         </div>
                         <div class="table-responsive-lg">
                             <div class="row flex-nowrap">
-                            @foreach($partenaires as $partenaire)
-                                <div class="col-lg-2 col-md-4 col-6">
-                                    <div class="mb-4 text-center">
+                            <div id="partenairesCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        @foreach($partenaires->chunk(6) as $key => $chunk) <!-- Modifier le nombre 6 pour le nombre d'images par slide -->
+            <div class="carousel-item @if($key === 0) active @endif">
+                <div class="row text-center">
+                    @foreach($chunk as $partenaire)
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <div class="mb-4">
+                                @if($partenaire->image)
+                                    <img src="{{ Storage::url($partenaire->image) }}" alt="logo" height="70px">
+                                @else
+                                    <img src="../assets/images/default-placeholder.jpg" alt="logo" height="70px">
+                                @endif
+                            </div>
+                        </div>
+                    @endforeach
+                </div>
+            </div>
+        @endforeach
+    </div>
 
+    <button class="carousel-control-prev" type="button" data-bs-target="#partenairesCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#partenairesCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
 
-                                            @if($partenaire->image)
-                                        <img src="{{ Storage::url($partenaire->image) }}"   alt="logo" height="70px">
-                                        @else
-                                        <img src="../assets/images/default-placeholder.jpg" 
-                                            alt="logo" height="70px">
-                                        @endif
-                                    </div>
-                                </div>
-
-                                @endforeach
-                                
+    
                             </div>
                         </div>
                     </div>

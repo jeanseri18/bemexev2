@@ -119,7 +119,7 @@
                 
                 <!-- heading -->
                 <div class="col-lg-12 col-md-12 col-12 mb-1 " >
-                  <center> <h1 class="display-6 fw-bold Justify-content-center" >Nos partenaires</h1></center><br>
+                  <center> <h1 class="display-6 fw-bold Justify-content-center" >Partenaires académiques et les entreprises qui nous ont fait confiance</h1></center><br>
                 </div>
 
             </div>
