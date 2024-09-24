@@ -3,7 +3,18 @@
 @section('title', 'Formation | Bem executive school')
 
 @section('content')
-
+<section class="py-4 py-lg-6 bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-12">
+              <div>
+                <p class="mb-0 text-white lead">Bâtie sur la fondation de BEM Management school, l’Executive éducation de BEM  propose des offres innovantes afin de se positionner en tant que leader de la formation exécutive en Afrique.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
         <div class="container px-lg-5 my-lg-8">
           <div class="row align-items-center gy-4 gy-lg-0">
             <div class="col-lg-6">

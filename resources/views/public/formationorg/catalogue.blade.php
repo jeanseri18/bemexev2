@@ -99,7 +99,7 @@
                         <div>
                             <h2 class="mb-0">MANAGEMENT & STRATÉGIE</h2>
                             <p class="mb-0">L’expertise d'HEC Paris dans l'enseignement et la recherche en Management et Stratégie est reconnue mondialement.</p>
-                        </div>
+                            <br></div>
                     </div>
                     <div class="col-12 mt-8 text-center">
                         <a href="#" class="btn btn-outline-primary">EN SAVOIR PLUS</a>
@@ -119,9 +119,11 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-between">
                         <div>
-                            <h2 class="mb-0">LEADERSHIP</h2>
+                            <h2 class="mb-0">LEADERSHIP</h2><br>
+                          
+                           
                             <p class="mb-0">Chaque professionnel connaît dans son parcours des moments clés qui nécessitent de développer son leadership.</p>
-                        </div>
+                            <br>    <br> </div>
                     </div>
                     <div class="col-12 mt-8 text-center">
                         <a href="#" class="btn btn-outline-primary">EN SAVOIR PLUS</a>
@@ -141,8 +143,9 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-between">
                         <div>
-                            <h2 class="mb-0">COACHING</h2>
+                            <h2 class="mb-0">COACHING</h2><br>
                             <p class="mb-0">Notre conviction est que chacun porte en lui ses propres réponses, les plus efficientes possible, pour résoudre sa problématique.</p>
+                            <br>
                         </div>
                     </div>
                     <div class="col-12 mt-8 text-center">
@@ -163,9 +166,9 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-between">
                         <div>
-                            <h2 class="mb-0">FINANCE</h2>
+                            <h2 class="mb-0">FINANCE</h2><br>
                             <p class="mb-0">Après la crise financière, on ne peut plus douter de la nécessité de doter les organisations et managers d’une expertise en finance d’entreprise.</p>
-                        </div>
+                      <br>  </div>
                     </div>
                     <div class="col-12 mt-8 text-center">
                         <a href="#" class="btn btn-outline-primary">EN SAVOIR PLUS</a>
@@ -186,8 +189,8 @@
                     <div class="d-flex align-items-center justify-content-between">
                         <div>
                             <h2 class="mb-0">MARKETING, DATA & BUSINESS DEVELOPMENT</h2>
-                            <p class="mb-0">Le Marketing, la data et le Développement Commercial sont des facteurs essentiels du processus de création de valeur des entreprises.</p>
-                        </div>
+                        <p class="mb-0">Le Marketing, la data et le Développement Commercial sont des facteurs essentiels du processus de création de valeur des entreprises.</p>
+                        <br>   </div>
                     </div>
                     <div class="col-12 mt-8 text-center">
                         <a href="#" class="btn btn-outline-primary">EN SAVOIR PLUS</a>
@@ -252,7 +255,7 @@
                         <div>
                             <h2 class="mb-0">EXCELLENCE OPÉRATIONNELLE</h2>
                             <p class="mb-0">L'excellence opérationnelle est essentielle pour améliorer la performance, la qualité et la rentabilité des organisations.</p>
-                        </div>
+                       <br> </div>
                     </div>
                     <div class="col-12 mt-8 text-center">
                         <a href="#" class="btn btn-outline-primary">EN SAVOIR PLUS</a>
@@ -271,11 +274,11 @@
                     <img src="../../assets/images/competence/aimant.png" width="30px">                    </div>
                     <div class="d-flex align-items-center justify-content-between">
                         <div>
-                            <h2 class="mb-0">GESTION DE PROJET</h2>
+                            <h2 class="mb-0">GESTION DE PROJET</h2><br>
                             <p class="mb-0">La gestion de projet est un atout clé pour piloter efficacement des initiatives complexes et multidimensionnelles.</p>
-                        </div>
+                        <br></div>
                     </div>
-                    <div class="col-12 mt-8 text-center">
+                    <div class="col-12 mt-8 text-center"><br>
                         <a href="#" class="btn btn-outline-primary">EN SAVOIR PLUS</a>
                     </div>
                 </center>
