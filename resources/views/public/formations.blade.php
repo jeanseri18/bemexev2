@@ -84,7 +84,7 @@ Réservée aux dirigeants et cadres supérieurs,<br> notre formation exécutive 
                 <p class="mb-0" style="font-size:18px">
                 Réservée aux dirigeants et cadres supérieurs,<br> notre formation exécutive vous aide à affiner vos capacités de leadership stratégique et à naviguer les complexités du monde des affaires globalisé.<br> <br>Ces programmes exclusifs sont conçus pour les leaders visionnaires souhaitant avoir un impact immédiat et durable dans leur organisation.<br><br></p>
               </div>
-              <a href="{{ route('formationexec') }}" class="btn btn-primary ">En savoir plus</a>
+              <a href="{{ route('formationexe') }}" class="btn btn-primary ">En savoir plus</a>
 <br>
             </div>
           </div>

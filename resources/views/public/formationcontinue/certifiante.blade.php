@@ -166,56 +166,12 @@
 Nos formations certifiantes couvrent un large éventail de compétences clés pour les cadres et dirigeants :</p>
 <div class="row">
 
+    
     <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
         <!-- Card -->
         <div class="card card-hover">
-            <a href="{{ asset('pdf/FICHE COM RELATION P 1.pdf') }}">
-                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.14.30.png" alt="course" class="card-img-top">
-            </a>
-            <!-- Card Body -->
-            <div class="card-body">
-            
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                    <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="{{ asset('pdf/FICHE COM RELATION P 1.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
-                </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/FICHE COM RELATION P 1.pdf') }}" class="text-inherit">Assistante de Direction à forte valeur ajoutée </a></h4>
-                <!-- List -->
-                <small>Programme axé sur le leadership dans le secteur public, avec un accent sur l'innovation et la gestion des politiques publiques.</small>
-               
-            </div>
-            <!-- Card Footer -->
-        </div><br>
-    </div>
-    <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
-        <!-- Card -->
-        <div class="card card-hover">
-            <a href="#">
+            <a href="{{ asset('pdf/Gestion_Projet_Syllabus 1.pdf') }}">
                 <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.14.40.png" alt="course" class="card-img-top">
-            </a>
-            <!-- Card Body -->
-           
-            <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                    <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="#" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
-                </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="#" class="text-inherit">Advanced management program</a></h4>
-                <!-- List -->
-                <small>Formation sur la méthodologie Lean Six Sigma pour améliorer les processus et la qualité dans les organisations.</small>
-               <br>
-               <br>
-             
-               
-            </div>
-            <!-- Card Footer -->
-        </div><br>
-    </div>
-    <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
-        <!-- Card -->
-        <div class="card card-hover">
-            <a href="{{ asset('pdf/Gestion_Projet_Syllabus 1.pdf') }}"">
-                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.14.49.png" alt="course" class="card-img-top">
             </a>
             <!-- Card Body -->
             <div class="card-body">
@@ -232,6 +188,102 @@ Nos formations certifiantes couvrent un large éventail de compétences clés po
             </div>
             <!-- Card Footer -->
         </div><br>
+    </div>
+
+
+
+
+
+
+    <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
+        <!-- Card -->
+        <div class="card card-hover">
+            <a href="{{ asset('pdf/FICHE INNONVATION & CREATIVE 1.pdf') }}">
+                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.14.30.png" alt="course" class="card-img-top">
+            </a>
+            <!-- Card Body -->
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <span class="badge bg-info-soft">Certificat Executif</span>
+                    <a href="{{ asset('pdf/FICHE INNONVATION & CREATIVE 1.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
+                </div>
+                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/FICHE INNONVATION & CREATIVE 1.pdf') }}" class="text-inherit">Certificat Innovation et Créativité </a></h4>
+                <!-- List -->
+                <small>Programme combinant les méthodologies de gestion de projet prédictives et agiles pour une flexibilité maximale.</small>
+               <br>
+               <br>
+               
+            </div>
+            <!-- Card Footer -->
+        </div><br>
+    </div>
+    <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
+        <!-- Card -->
+        <div class="card card-hover">
+            <a href="{{ asset('pdf/FICHE BUSINESS D & MARKETING 1.pdf') }}">
+                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.13.08.png" alt="course" class="card-img-top">
+            </a>
+            <!-- Card Body -->
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <span class="badge bg-info-soft">Certificat Executif</span>
+                    <a href="{{ asset('pdf/FICHE BUSINESS D & MARKETING 1.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
+                </div>
+                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/FICHE BUSINESS D & MARKETING 1.pdf') }}" class="text-inherit">Certificat Business Développement et Marketing</a></h4>
+                <!-- List -->
+                <small>Programme combinant les méthodologies de gestion de projet prédictives et agiles pour une flexibilité maximale.</small>
+               <br>
+               <br>
+               
+            </div>
+            <!-- Card Footer -->
+        </div><br>
+    </div>
+    <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
+        <!-- Card -->
+        <div class="card card-hover">
+            <a href="{{ asset('pdf/FICHE CAPITAL HUMAIN 1.pdf') }}">
+                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.14.49.png" alt="course" class="card-img-top">
+            </a>
+            <!-- Card Body -->
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <span class="badge bg-info-soft">Certificat Executif</span>
+                    <a href="{{ asset('pdf/FICHE CAPITAL HUMAIN 1.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
+                </div>
+                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/FICHE CAPITAL HUMAIN 1.pdf') }}" class="text-inherit">Certificat Capital Humain </a></h4>
+                <!-- List -->
+                <small>Programme combinant les méthodologies de gestion de projet prédictives et agiles pour une flexibilité maximale.</small>
+               <br>
+               <br>
+               <br>
+               
+            </div>
+            <!-- Card Footer -->
+        </div><br>
+    </div>
+    <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
+        <!-- Card -->
+        <div class="card card-hover">
+            <a href="{{ asset('pdf/FICHE COM RELATION P 1.pdf') }}">
+                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.13.27.png" alt="course" class="card-img-top">
+            </a>
+            <!-- Card Body -->
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <span class="badge bg-info-soft">Certificat Executif</span>
+                    <a href="{{ asset('pdf/FICHE COM RELATION P 1.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
+                </div>
+                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/FICHE COM RELATION P 1.pdf') }}" class="text-inherit">Certificat Communication Et Relation Publique</a></h4>
+                <!-- List -->
+                <small>Programme combinant les méthodologies de gestion de projet prédictives et agiles pour une flexibilité maximale.</small>
+               <br>
+               <br>
+               
+            </div>
+            <!-- Card Footer -->
+        </div><br>
+    </div><div class="col-md-4 ">
     </div>
     </div>
 

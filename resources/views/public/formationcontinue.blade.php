@@ -32,36 +32,48 @@
 
             <div class="col-xl-12  col-md-12 col-12">
                 <div class="row gy-4 gy-xl-0">
-                    <div class="col-xl-4 col-md-6 col-12">
+                    <div class="col-xl-6 col-md-6 col-12">
                         <div class="card card-lift h-100 text-center text-lg-start">
                             <div class="p-2">
                                 <a href="{{ route('formationcertifiante') }}"><img src="../../assets/images/formationorg/portrait-senior-woman-professional-blazer-outdoors-laptop.jpg" alt=""
-                                        class="img-fluid rounded-3 w-100" style="height: 280px;"></a>
+                                        class="img-fluid rounded-3 w-100" style=""></a>
                             </div>
                             <div class="card-body pt-2">
                                 <h3><a class="text-inherit" href="{{ route('formationcertifiante') }}">Formations Certifiantes</a></h3>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-md-6 col-12">
+                    <!--div class="col-xl-6 col-md-6 col-12">
                         <div class="card card-lift h-100 text-center text-lg-start">
                             <div class="p-2">
-                                <a href="{{ route('formationelearning') }}"><img src="../../assets/images/formationorg/entrepreneur-using-video-call-conference-laptop-talk-colleague-startup-office-business-man-attending-online-teleconference-meeting-with-person-discuss-project-strategy.jpg" alt=""
-                                        class="img-fluid rounded-3 w-100"  style="height: 280px;"></a>
+                                <a href="#"><img src="../../assets/images/formationorg/entrepreneur-using-video-call-conference-laptop-talk-colleague-startup-office-business-man-attending-online-teleconference-meeting-with-person-discuss-project-strategy.jpg" alt=""
+                                        class="img-fluid rounded-3 w-100"  style="height: 300px;"></a>
                             </div>
                             <div class="card-body pt-2">
-                                <h3><a class="text-inherit" href="{{ route('formationelearning') }}">E-learning</a></h3>
+                                <h3><a class="text-inherit" href="#">E-learning</a></h3>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 col-12">
+                    </div-->
+                    <!--div class="col-xl-6 col-md-6 col-12"><br>
                         <div class="card card-lift h-100 text-center text-lg-start">
                             <div class="p-2">
                                 <a href="{{route('formationdiplomante')}}"><img src="../../assets/images/formationorg/WhatsApp Image 2024-09-17 at 14.36.18.jpeg" alt=""
-                                        class="img-fluid rounded-3 w-100"  style="height: 280px;"></a>
+                                        class="img-fluid rounded-3 w-100"  style="height: 300px;"></a>
                             </div>
                             <div class="card-body pt-2"><br>
-                                <h3><a class="text-inherit" href="{{ route('formationdiplomante') }}">Formations Diplômantes</a></h3>
+                                <h3><a class="text-inherit" href="{{ route('formationexec') }}">Formations Diplômantes</a></h3>
+                            </div>
+                        </div>
+                    </div-->
+
+                    <div class="col-xl-6 col-md-6 col-12">
+                        <div class="card card-lift h-100 text-center text-lg-start">
+                            <div class="p-2">
+                                <a href="{{route('formationdiplomante')}}"><img src="../../assets/people-office-work-day 4.png" alt=""
+                                        class="img-fluid rounded-3 w-100"  style=""></a>
+                            </div>
+                            <div class="card-body pt-2">
+                                <h3><a class="text-inherit" href="{{ route('formationdiplomante') }}">Formations executives</a></h3>
                             </div>
                         </div>
                     </div>

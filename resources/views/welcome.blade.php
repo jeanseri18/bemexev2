@@ -1,7 +1,7 @@
 @extends('layouts.app')
 <style>
 .card-custom {
-    min-height: 390px;
+    min-height: 300px;
     /* Ajustez cette valeur selon vos besoins */
 
     flex-direction: column;
@@ -210,9 +210,9 @@
     <div class="container">
         <div class="row">
             <!-- col -->
-            <div class="offset-xl-1 col-xl-10 col-md-12 col-12">
+            <div class=" col-xl-12 col-md-12 col-12">
                 <div class="row text-center">
-                    <div class="col-md-12 px-lg-8 mb-8 mt-6">
+                    <div class="col-md-12  mb-8 mt-6">
                         <!-- text -->
                         <!-- heading -->
                         <h2 class="h1 fw-bold mt-3" style="color:white">Nos domaines de compétence</h2>
@@ -222,186 +222,188 @@
                     </div>
                 </div>
                 <div class="row gy-4">
-                    <!-- Card 1: Management et leadership -->
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <!-- card -->
-                        <div class="card border-top border-4 card-hover-with-icon border-0 card-custom ">
-                            <!-- card body -->
-                            <div class="card-body">
-                                <!-- icon -->
-                                <center>
-                                    <div class="icon-shape icon-lg rounded-circle bg-light mb-3 card-icon">
-                                        <img src="../../assets/images/competence/leadership.png" width="30px" />
-                                    </div>
-                                    <div class="d-flex align-items-center justify-content-between">
-                                        <div>
-                                            <!-- heading -->
-                                            <h2 class="mb-0">Management et leadership</h2>
-                                            <!-- text -->
-                                            <p class="mb-0">Développez vos compétences en management et leadership pour
-                                                diriger avec efficacité et inspirer vos équipes.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 mt-8 text-center"><br>
-                                        <a href="#" class="btn btn-outline-primary">En savoir plus</a>
-                                    </div>
-                                </center>
-                            </div>
-                            <!-- arrow -->
+                <div class="col-lg-4 col-md-4 col-12">
+        <div class="card border-top border-4 card-hover-with-icon border-0 card-custom ">
+            <div class="card-body">
+                <center>
+                    <div class="icon-shape icon-lg rounded-circle bg-light mb-3 card-icon">
+                        <img src="../../assets/images/competence/leadership.png" width="30px" />
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div>
+                            <h2 class="mb-0">MANAGEMENT & STRATÉGIE</h2><BR>
+                            <p class="mb-0">L’expertise d'HEC Paris dans l'enseignement et la recherche en Management et Stratégie est reconnue mondialement.</p>
+                            <br></div>
+                    </div>
+                  
+                </center>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 2: LEADERSHIP -->
+    <div class="col-lg-4 col-md-4 col-12">
+        <div class="card-custom card border-top border-4 card-hover-with-icon border-0">
+            <div class="card-body">
+                <center>
+                    <div class="icon-shape icon-lg rounded-circle bg-light mb-3 card-icon">
+                        <img src="../../assets/images/competence/conferencier.png" width="30px" />
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div>
+                            <h2 class="mb-0">LEADERSHIP</h2><br>
+                          
+                           
+                            <p class="mb-0">Chaque professionnel connaît dans son parcours des moments clés qui nécessitent de développer son leadership.</p>
+                            <br>    <br> </div>
+                    </div>
+                  
+                </center>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 3: COACHING -->
+    <div class="col-lg-4 col-md-4 col-12">
+        <div class="card-custom card border-top border-4 card-hover-with-icon border-0">
+            <div class="card-body">
+                <center>
+                    <div class="icon-shape icon-lg rounded-circle bg-light mb-3 card-icon">
+                        <img src="../../assets/images/competence/image.png" width="30px" />
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div>
+                            <h2 class="mb-0">COACHING</h2><br>
+                            <p class="mb-0">Notre conviction est que chacun porte en lui ses propres réponses, les plus efficientes possible, pour résoudre sa problématique.</p>
+                            <br>
                         </div>
                     </div>
+                  
+                </center>
+            </div>
+        </div>
+    </div>
 
-                    <!-- Card 2: Marketing & communication -->
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <!-- card -->
-                        <div class="card-custom card border-top border-4 card-hover-with-icon border-0">
-                            <!-- card body -->
-                            <div class="card-body">
-                                <!-- icon -->
-                                <center>
-                                    <div class="icon-shape icon-lg rounded-circle bg-light mb-3 card-icon">
-                                        <img src="../../assets/images/competence/conferencier.png" width="30px" />
+    <!-- Card 4: FINANCE -->
+    <div class="col-lg-4 col-md-4 col-12">
+        <div class="card-custom card border-top border-4 card-hover-with-icon border-0">
+            <div class="card-body">
+                <center>
+                    <div class="icon-shape icon-lg rounded-circle bg-light mb-3 card-icon">
+                        <img src="../../assets/images/competence/aimant.png" width="30px" />
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div>
+                            <h2 class="mb-0">FINANCE</h2><br>
+                            <p class="mb-0">Après la crise financière, on ne peut plus douter de la nécessité de doter les organisations et managers d’une expertise en finance d’entreprise.</p>
+                      <br>  </div>
+                    </div>
+                  
+                </center>
+            </div>
+        </div>
+    </div>
 
-                                    </div>
-                                    <div class="d-flex align-items-center justify-content-between">
-                                        <div>
-                                            <!-- heading -->
-                                            <h2 class="mb-0">Marketing & communication</h2>
-                                            <!-- text -->
-                                            <p class="mb-0">Apprenez à promouvoir efficacement vos produits et à
-                                                optimiser vos stratégies de communication pour un impact maximal.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 mt-8 text-center">
-                                        <a href="#" class="btn btn-outline-primary">En savoir plus</a>
-                                    </div>
-                                </center>
-                            </div>
-                            <!-- arrow -->
+    <!-- Card 5: MARKETING, DATA & BUSINESS DEVELOPMENT -->
+    <div class="col-lg-4 col-md-4 col-12">
+        <div class="card-custom card border-top border-4 card-hover-with-icon border-0">
+            <div class="card-body">
+                <center>
+                    <div class="icon-shape icon-lg rounded-circle bg-light mb-3 card-icon">
+                        <img src="../../assets/images/competence/social.png" width="30px" />
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div>
+                            <h2 class="mb-0">MARKETING, DATA & BUSINESS DEVELOPMENT</h2>
+                        <p class="mb-0">Le Marketing, la data et le Développement Commercial sont des facteurs essentiels du processus de création de valeur des entreprises.</p>
+                        <br>   </div>
+                    </div>
+                  
+                </center>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 6: ENTREPRENEURIAT & INNOVATION -->
+    <div class="col-lg-4 col-md-4 col-12">
+        <div class="card-custom card border-top border-4 card-hover-with-icon border-0">
+            <div class="card-body">
+                <center>
+                    <div class="icon-shape icon-lg rounded-circle bg-light mb-3 card-icon">
+                        <img src="../../assets/images/competence/entrepreneuriat.png" width="30px" />
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div>
+                            <h2 class="mb-0">ENTREPRENEURIAT & INNOVATION</h2>
+                            <p class="mb-0">HEC Paris est engagée dans l’entrepreneuriat, l'innovation tant au niveau de la formation qu’à celui de la recherche.</p>
                         </div>
                     </div>
+                  
+                </center>
+            </div>
+        </div>
+    </div>
 
-                    <!-- Card 3: Capital humain -->
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <!-- card -->
-                        <div class="card-custom card border-top border-4 card-hover-with-icon border-0">
-                            <!-- card body -->
-                            <div class="card-body">
-                                <!-- icon -->
-                                <center>
-                                    <div class="icon-shape icon-lg rounded-circle bg-light mb-3 card-icon">
-                                        <img src="../../assets/images/competence/image.png" width="30px" />
-
-                                    </div>
-                                    <div class="d-flex align-items-center justify-content-between">
-                                        <div>
-                                            <!-- heading -->
-                                            <h2 class="mb-0">Capital humain</h2><br>
-                                            <!-- text -->
-                                            <p class="mb-0">Optimisez le potentiel de vos équipes grâce à des formations
-                                                ciblées sur le développement personnel et professionnel.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 mt-8 text-center">
-                                        <a href="#" class="btn btn-outline-primary">En savoir plus</a>
-                                    </div>
-                                </center>
-                            </div>
-                            <!-- arrow -->
+    <!-- Card 7: DÉVELOPPEMENT DURABLE -->
+    <div class="col-lg-4 col-md-4 col-12">
+        <div class="card-custom card border-top border-4 card-hover-with-icon border-0">
+            <div class="card-body">
+                <center>
+                    <div class="icon-shape icon-lg rounded-circle bg-light mb-3 card-icon">
+                        <img src="../../assets/images/competence/entrepreneuriat.png" width="30px" />
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div>
+                            <h2 class="mb-0">DÉVELOPPEMENT DURABLE</h2>
+                            <p class="mb-0">Les entreprises doivent jouer un rôle clé dans la construction d'un avenir plus durable, et nos programmes sont conçus pour aider les leaders à prendre des décisions éclairées en la matière.</p>
                         </div>
                     </div>
+                 
+                </center>
+            </div>
+        </div>
+    </div>
 
-                    <!-- Card 4: Finance et marchés de capitaux -->
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <!-- card -->
-                        <div class="card-custom card border-top border-4 card-hover-with-icon border-0">
-                            <!-- card body -->
-                            <div class="card-body">
-                                <!-- icon -->
-                                <center>
-                                    <div class="icon-shape icon-lg rounded-circle bg-light mb-3 card-icon">
-                                        <img src="../../assets/images/competence/aimant.png" width="30px" />
-
-                                    </div>
-                                    <div class="d-flex align-items-center justify-content-between">
-                                        <div>
-                                            <!-- heading -->
-                                            <h2 class="mb-0">Finance et marchés de capitaux</h2>
-                                            <!-- text -->
-                                            <p class="mb-0">Maîtrisez la finance d'entreprise et les marchés de capitaux
-                                                pour naviguer efficacement dans un environnement économique complexe.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 mt-8 text-center">
-                                        <a href="#" class="btn btn-outline-primary">En savoir plus</a>
-                                    </div>
-                                </center>
-                            </div>
-                            <!-- arrow -->
-                        </div>
+    <!-- Card 8: EXCELLENCE OPÉRATIONNELLE -->
+    <div class="col-lg-4 col-md-4 col-12">
+        <div class="card-custom card border-top border-4 card-hover-with-icon border-0">
+            <div class="card-body">
+                <center>
+                    <div class="icon-shape icon-lg rounded-circle bg-light mb-3 card-icon">
+                    <img src="../../assets/images/competence/conferencier.png" width="30px">                  </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div>
+                            <h2 class="mb-0">EXCELLENCE OPÉRATIONNELLE</h2>
+                            <p class="mb-0">L'excellence opérationnelle est essentielle pour améliorer la performance, la qualité et la rentabilité des organisations.</p>
+                       <br> </div>
                     </div>
+                  
+                </center>
+            </div>
+        </div>
+    </div>
 
-                    <!-- Card 5: Relation client et vente -->
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <!-- card -->
-                        <div class="card-custom card border-top border-4 card-hover-with-icon border-0">
-                            <!-- card body -->
-                            <div class="card-body">
-                                <!-- icon -->
-                                <center>
-                                    <div class="icon-shape icon-lg rounded-circle bg-light mb-3 card-icon">
-                                        <img src="../../assets/images/competence/social.png" width="30px" />
-
-                                    </div>
-                                    <div class="d-flex align-items-center justify-content-between">
-                                        <div>
-                                            <!-- heading -->
-                                            <h2 class="mb-0">Relation client et vente</h2><br>
-                                            <!-- text -->
-                                            <p class="mb-0">Perfectionnez vos compétences en gestion de la relation
-                                                client et en techniques de vente pour optimiser la satisfaction et la
-                                                fidélité des clients.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 mt-8 text-center">
-                                        <a href="#" class="btn btn-outline-primary">En savoir plus</a>
-                                    </div>
-                                </center>
-                            </div>
-                            <!-- arrow -->
-                        </div>
+    <!-- Card 9: GESTION DE PROJET -->
+    <div class="col-lg-4 col-md-4 col-12">
+        <div class="card-custom card border-top border-4 card-hover-with-icon border-0">
+            <div class="card-body">
+                <center>
+                    <div class="icon-shape icon-lg rounded-circle bg-light mb-3 card-icon">
+                    <img src="../../assets/images/competence/aimant.png" width="30px">                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div>
+                            <h2 class="mb-0">GESTION DE PROJET</h2><br>
+                            <p class="mb-0">La gestion de projet est un atout clé pour piloter efficacement des initiatives complexes et multidimensionnelles.</p>
+                        <br></div>
                     </div>
-
-                    <!-- Card 6: Entrepreneuriat et innovation -->
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <!-- card -->
-                        <div class="card-custom card border-top border-4 card-hover-with-icon border-0">
-                            <!-- card body -->
-                            <div class="card-body">
-                                <!-- icon -->
-                                <center>
-                                    <div class="icon-shape icon-lg rounded-circle bg-light mb-3 card-icon">
-                                        <img src="../../assets/images/competence/entrepreneuriat.png" width="30px" />
-
-                                    </div>
-                                    <div class="d-flex align-items-center justify-content-between">
-                                        <div>
-                                            <!-- heading -->
-                                            <h2 class="mb-0">Entrepreneuriat et innovation</h2>
-                                            <!-- text -->
-                                            <p class="mb-0">Développez vos capacités entrepreneuriales et stimulez votre
-                                                créativité pour réussir dans un environnement dynamique.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 mt-8 text-center">
-                                        <a href="#" class="btn btn-outline-primary">En savoir plus</a>
-                                    </div>
-                                </center>
-                            </div>
-                            <!-- arrow -->
-                        </div>
-                    </div>
+                  
+                </center>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    
                 </div>
             </div>
         </div>

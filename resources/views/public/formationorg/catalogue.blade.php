@@ -4,7 +4,7 @@
 
 <style>
 .card-custom {
-    min-height: 390px;
+    min-height: 300px;
     /* Ajustez cette valeur selon vos besoins */
 
     flex-direction: column;
@@ -101,9 +101,7 @@
                             <p class="mb-0">L’expertise d'HEC Paris dans l'enseignement et la recherche en Management et Stratégie est reconnue mondialement.</p>
                             <br></div>
                     </div>
-                    <div class="col-12 mt-8 text-center">
-                        <a href="#" class="btn btn-outline-primary">EN SAVOIR PLUS</a>
-                    </div>
+                  
                 </center>
             </div>
         </div>
@@ -125,9 +123,7 @@
                             <p class="mb-0">Chaque professionnel connaît dans son parcours des moments clés qui nécessitent de développer son leadership.</p>
                             <br>    <br> </div>
                     </div>
-                    <div class="col-12 mt-8 text-center">
-                        <a href="#" class="btn btn-outline-primary">EN SAVOIR PLUS</a>
-                    </div>
+                  
                 </center>
             </div>
         </div>
@@ -148,9 +144,7 @@
                             <br>
                         </div>
                     </div>
-                    <div class="col-12 mt-8 text-center">
-                        <a href="#" class="btn btn-outline-primary">EN SAVOIR PLUS</a>
-                    </div>
+                  
                 </center>
             </div>
         </div>
@@ -170,9 +164,7 @@
                             <p class="mb-0">Après la crise financière, on ne peut plus douter de la nécessité de doter les organisations et managers d’une expertise en finance d’entreprise.</p>
                       <br>  </div>
                     </div>
-                    <div class="col-12 mt-8 text-center">
-                        <a href="#" class="btn btn-outline-primary">EN SAVOIR PLUS</a>
-                    </div>
+                  
                 </center>
             </div>
         </div>
@@ -192,9 +184,7 @@
                         <p class="mb-0">Le Marketing, la data et le Développement Commercial sont des facteurs essentiels du processus de création de valeur des entreprises.</p>
                         <br>   </div>
                     </div>
-                    <div class="col-12 mt-8 text-center">
-                        <a href="#" class="btn btn-outline-primary">EN SAVOIR PLUS</a>
-                    </div>
+                  
                 </center>
             </div>
         </div>
@@ -214,9 +204,7 @@
                             <p class="mb-0">HEC Paris est engagée dans l’entrepreneuriat, l'innovation tant au niveau de la formation qu’à celui de la recherche.</p>
                         </div>
                     </div>
-                    <div class="col-12 mt-8 text-center">
-                        <a href="#" class="btn btn-outline-primary">EN SAVOIR PLUS</a>
-                    </div>
+                  
                 </center>
             </div>
         </div>
@@ -236,9 +224,7 @@
                             <p class="mb-0">Les entreprises doivent jouer un rôle clé dans la construction d'un avenir plus durable, et nos programmes sont conçus pour aider les leaders à prendre des décisions éclairées en la matière.</p>
                         </div>
                     </div>
-                    <div class="col-12 mt-8 text-center">
-                        <a href="#" class="btn btn-outline-primary">EN SAVOIR PLUS</a>
-                    </div>
+                 
                 </center>
             </div>
         </div>
@@ -257,9 +243,7 @@
                             <p class="mb-0">L'excellence opérationnelle est essentielle pour améliorer la performance, la qualité et la rentabilité des organisations.</p>
                        <br> </div>
                     </div>
-                    <div class="col-12 mt-8 text-center">
-                        <a href="#" class="btn btn-outline-primary">EN SAVOIR PLUS</a>
-                    </div>
+                  
                 </center>
             </div>
         </div>
@@ -278,9 +262,7 @@
                             <p class="mb-0">La gestion de projet est un atout clé pour piloter efficacement des initiatives complexes et multidimensionnelles.</p>
                         <br></div>
                     </div>
-                    <div class="col-12 mt-8 text-center"><br>
-                        <a href="#" class="btn btn-outline-primary">EN SAVOIR PLUS</a>
-                    </div>
+                  
                 </center>
             </div>
         </div>

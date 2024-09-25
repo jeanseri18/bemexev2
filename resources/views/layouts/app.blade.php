@@ -45,8 +45,8 @@
         <div class="collapse navbar-collapse" id="navbar-default">
             <ul class="navbar-nav mt-3 mt-lg-0 mx-xxl-auto">
                 <li><a href="{{ route('about') }}" class="dropdown-item">A propos</a></li>
-                <li><a href="{{ route('formation') }}" class="dropdown-item">Formations</a></li>
-                <li><a href="{{ route('partner') }}" class="dropdown-item">Entreprise partenaire</a></li>
+                <li><a href="{{ route('formationorg') }}" class="dropdown-item">Formations organisation</a></li>
+                <li><a href="{{ route('formationcontinue') }}" class="dropdown-item">Formations continue </a></li>
                 <li><a href="{{ route('events') }}" class="dropdown-item">Agenda et event</a></li>
             </ul>
         </div>
