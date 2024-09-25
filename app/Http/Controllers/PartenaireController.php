@@ -39,7 +39,7 @@ class PartenaireController extends Controller
 
     public function edit(Partenaire $partenaire)
     {
-        return view('dashbord.partenaires.edit', compact('partenaire'));
+        return view('dashboard.partenaires.edit', compact('partenaire'));
     }
 
     public function update(Request $request, Partenaire $partenaire)

@@ -1,7 +1,7 @@
 <!-- resources/views/dashboard/partenaires/edit.blade.php -->
 @extends('layouts.dashboard')
 
-@section('content')  <div class="card>
+@section('content')  <div class="card">
     <form class="needs-validation" method="POST" action="{{ route('partenaires.update', $partenaire->id) }}" enctype="multipart/form-data" novalidate>
         @csrf
         @method('PUT')
@@ -18,10 +18,10 @@
             <div class="mb-3">
                 <label class="form-label">Type</label>
                 <div>
-                    <input type="radio" id="active" name="statut" value="ecole" class="btn-check" {{ $partenaire->statut === 'ecole' ? 'checked' : '' }} required>
+                    <input type="radio" id="active" name="type" value="ecole" class="btn-check" {{ $partenaire->type === 'ecole' ? 'checked' : '' }} required>
                     <label class="btn btn-outline-secondary" for="active">ecole</label>
                     
-                    <input type="radio" id="entreprise" name="statut" value="entreprise" class="btn-check" {{ $partenaire->statut === 'entreprise' ? 'checked' : '' }} required>
+                    <input type="radio" id="entreprise" name="type" value="entreprise" class="btn-check" {{ $partenaire->type === 'entreprise' ? 'checked' : '' }} required>
                     <label class="btn btn-outline-secondary" for="entreprise">entreprise</label>
                     <div class="invalid-feedback">Svp selectionnez le type.</div>
                 </div>
