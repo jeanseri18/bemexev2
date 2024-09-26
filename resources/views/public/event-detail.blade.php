@@ -31,10 +31,13 @@
                 <div class="mb-4">
                   <p class="lead text-dark">{{ $event->titre }}</p>
                   <p>
-                  {{ $event->detail }}
+{{ Str::limit($event->detail, 150) }}
                   </p>
-                <a href="  {{ url('$event->link')}}" class="btn btn-primary">Inscris</a>
-                  
+                  @if(trim(strtolower($event->type)) ==="actualite")
+    <a href="{{ url($event->link) }}" class="btn btn-primary">Inscris</a>
+@endif
+
+
                 </div>
                 
                 

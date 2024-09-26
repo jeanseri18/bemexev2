@@ -48,6 +48,7 @@
                 <li><a href="{{ route('formationorg') }}" class="dropdown-item">Formations organisation</a></li>
                 <li><a href="{{ route('formationcontinue') }}" class="dropdown-item">Formations continue </a></li>
                 <li><a href="{{ route('events') }}" class="dropdown-item">Agenda et event</a></li>
+                <li><a href="{{ route('blog') }}" class="dropdown-item">Actualités</a></li>
             </ul>
         </div>
     </div>

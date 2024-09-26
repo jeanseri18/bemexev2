@@ -126,6 +126,12 @@ class PublicController extends Controller
 
     public function actualite()
     {
-        return view('public.blog');
+        // Utiliser la méthode paginate() pour la pagination, ici avec 10 résultats par page
+        $events = Blog::where('type', 'actualite')
+                      ->where('statut', 'active')
+                      ->paginate(10); // Tu peux ajuster le nombre de résultats par page
+    
+        return view('public.blog', compact('events'));
     }
+    
 }
