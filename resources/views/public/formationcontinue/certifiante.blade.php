@@ -117,8 +117,7 @@
 
 
 <section class="pb-lg-8 " >
-    <div class="container  " style=" padding-left:70px /* 4px */;
-    padding-right:70px;"><br>
+    <div class="container  " ><br>
 
         <p>
             <br>
@@ -135,7 +134,7 @@
                         <div class="row mb-6 justify-content-center">
                             <div class="col-lg-12 col-md-12 col-12 text-left">
                                 <span
-                                    class="text-primary mb-0 d-block text-uppercase fw-semibold ls-xl">Partenaires</span>
+                                    class="text-primary mb-0 d-block text-uppercase fw-semibold ls-xl">Tout nos partenaires academique</span>
                             </div>
                         </div>
                         <div class="table-responsive-lg">
@@ -288,8 +287,9 @@ Nos formations certifiantes couvrent un large éventail de compétences clés po
     </div>
 
 
-        @include('layouts.contact')
 
 
 </section>
+
+@include('layouts.contact')
 @endsection

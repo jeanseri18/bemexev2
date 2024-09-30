@@ -8,7 +8,7 @@
 
     <!-- Favicon icon -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon/favicon.ico') }}" />
-
+  
     <!-- Darkmode JS -->
     <script src="{{ asset('assets/js/vendors/darkMode.js') }}"></script>
 

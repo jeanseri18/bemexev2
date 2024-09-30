@@ -182,7 +182,7 @@
                     <ul class="list-unstyled mb-5" style="font-size:14PX">
                         <li class="mb-2">
 
-                            <span class="ms-2"><h3 >Dr Pape Madické DIOP Président Directeur Général BEM </h3>
+                            <span class="ms-2"><h3 >Fara Sakho   Directeur Général BEM </h3>
                             
                             <big>"</big>Dès sa création <span class="text-primary"> BEM Management School</span> s’est consacrée à la formation de managers africains responsables et immédiatement opérationnels. BEM Management School est un établissement d’enseignement supérieur privé général. Il a pour vocation de former et d’accompagner des managers africains responsables et opérationnels immédiatement. Il entend ainsi apporter une contribution décisive à l’émergence et à la consolidation d’une conscience africaine forte et ouverte sur le progrès, audacieuse, ambitieuse et responsable. </span>
                         </li>
@@ -636,6 +636,7 @@
                             </div>
                             </div>
 
+                            <center><a href="{{url('formation-continue/certifiante') }}" class="btn btn-primary">En savoir</a></center>
 
                             </section>
 
@@ -749,7 +750,7 @@
      @foreach($partenaires as $partenaire)
                         <a href="#" class="btn btn-light rounded-pill me-1 mb-3 btn-logo btn-lift">
                             <span> @if($partenaire->image)
-                                        <img src="{{ Storage::url($partenaire->image) }}" alt="{{ $partenaire->titre }}" class="icon-xs">
+                                        <img src="{{ Storage::url($partenaire->image) }}" alt="{{ $partenaire->titre }}" class="icon-lg">
                                         @else
                                         <img src="../assets/images/default-placeholder.jpg" class="icon-xs"
                                             alt="Image par défaut">

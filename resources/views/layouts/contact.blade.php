@@ -1,4 +1,9 @@
-<div class="text-left ">
+<section class="bg-light py-lg-8 ">
+<div class="  my-lg-8 " style=" padding-left:70px /* 4px */;
+    padding-right:70px;">
+        
+
+<div class="text-left  ">
     <span class="fw-semibold display-4">Contact</span>
     <h3 class=" mt-3 mb-0 text-black">Prêt à franchir un nouveau cap dans votre carrière ?</h3>
     <br>
@@ -111,3 +116,4 @@
 </div>
 <br>
 <br>
+</div></section>

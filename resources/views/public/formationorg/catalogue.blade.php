@@ -359,11 +359,11 @@
             </div>
         </div>
   
-<div  style=" padding-left:60px /* 4px */;
-    padding-right:60px;">
+
+</section>
+
         @include('layouts.contact')
 
-</div>
-</section>
+
 @endsection
 

@@ -35,8 +35,7 @@
 
 
 <section class="pb-lg-8 " >
-    <div class="container  " style=" padding-left:70px /* 4px */;
-    padding-right:70px;"><br>
+    <div class="container  " ><br>
         <h3>Nos différents types de formation</h3>
 
         <p>
@@ -78,8 +77,9 @@
             </div>
             <br><br>
 
-        @include('layouts.contact')
+ 
 
 
 </section>
+@include('layouts.contact')
 @endsection

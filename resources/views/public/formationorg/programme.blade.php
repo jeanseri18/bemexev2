@@ -4,7 +4,7 @@
 
 @section('content')
 <section class="py-lg-8 py-6 bg-primary">
-    <div class="container my-lg-8">
+    <div class=" my-lg-8">
         <div class="row">
             <div class="col-xl-10 offset-xl-1 col-md-12 col-12">
                 <div class="row align-items-center">
@@ -38,15 +38,11 @@
 
 
 <section class="pb-lg-8 ">
-    <div class="container  " style=" padding-left:70px /* 4px */;
+    <div class="  " style=" padding-left:70px /* 4px */;
     padding-right:70px;"><br>
 
 
-        <br>
-        <h4 class="display-5 fw-bold mb-3">
 
-            <span class="fw-semibold display-4"> Detail</span>
-        </h4>
         <br>
         <p class="mb-5 ">
 
@@ -70,89 +66,102 @@
             <h2 class="display-6 fw-bold mb-3">
 
                 <span class="fw-semibold display-4">
-                    </span>
+                </span>
         </center>
         <div class="bg-white py-3">
-                    <div class="container mt-lg-6">
-                        <div class="row mb-6 justify-content-center">
-                            <div class="col-lg-12 col-md-12 col-12 text-left">
-                                <span
-                                    class="text-primary mb-0 d-block text-uppercase fw-semibold ls-xl">Ils nous ont fais confiance</span>
+            <div class="container mt-lg-6">
+                <div class="row mb-6 justify-content-center">
+                    <div class="col-lg-12 col-md-12 col-12 text-left">
+                        <span class="text-primary mb-0 d-block text-uppercase fw-semibold ls-xl">Ils nous ont fais
+                            confiance</span>
+                    </div>
+                </div>
+                <div class="table-responsive-lg">
+                    <div class="row flex-nowrap">
+                        <div id="partenairesCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                @foreach($partenaires->chunk(6) as $key => $chunk)
+                                <!-- Modifier le nombre 6 pour le nombre d'images par slide -->
+                                <div class="carousel-item @if($key === 0) active @endif">
+                                    <div class="row text-center">
+                                        @foreach($chunk as $partenaire)
+                                        <div class="col-lg-2 col-md-4 col-6">
+                                            <div class="mb-4">
+                                                @if($partenaire->image)
+                                                <img src="{{ Storage::url($partenaire->image) }}" alt="logo"
+                                                    height="70px">
+                                                @else
+                                                <img src="../assets/images/default-placeholder.jpg" alt="logo"
+                                                    height="70px">
+                                                @endif
+                                            </div>
+                                        </div>
+                                        @endforeach
+                                    </div>
+                                </div>
+                                @endforeach
                             </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#partenairesCarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#partenairesCarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
-                        <div class="table-responsive-lg">
-                            <div class="row flex-nowrap">
-                            <div id="partenairesCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-        @foreach($partenaires->chunk(6) as $key => $chunk) <!-- Modifier le nombre 6 pour le nombre d'images par slide -->
-            <div class="carousel-item @if($key === 0) active @endif">
-                <div class="row text-center">
-                    @foreach($chunk as $partenaire)
-                        <div class="col-lg-2 col-md-4 col-6">
-                            <div class="mb-4">
-                                @if($partenaire->image)
-                                    <img src="{{ Storage::url($partenaire->image) }}" alt="logo" height="70px">
-                                @else
-                                    <img src="../assets/images/default-placeholder.jpg" alt="logo" height="70px">
-                                @endif
-                            </div>
-                        </div>
-                    @endforeach
+
+
+                    </div>
                 </div>
             </div>
-        @endforeach
-    </div>
 
-    <button class="carousel-control-prev" type="button" data-bs-target="#partenairesCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#partenairesCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
-
-    
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                  
-                <div >
-    <h2>
-        <span class="mb-4 h1 fw-semibold">Comment pouvons-nous vous aider ?</span>
-    </h2>
-    <div >
-        <div >
-            <p>En tant que Directeur de la Formation (CLO), Directeur de la Transformation (CTO), ou DRH, vous êtes l’un des moteurs du changement au sein d'une entreprise qui opère à l’international.<br>
-            Vous êtes conscient que vos collaborateurs, individuellement et collectivement, sont essentiels à la réalisation des objectifs de votre entreprise.</p>
-
-            <p >En tant que dirigeant, vous êtes confronté quotidiennement à des défis stratégiques commerciaux, technologiques et sociaux. Permettre à vos cadres d’acquérir les compétences et les outils appropriés est donc essentiel à votre réussite.<br>
-            C'est là que nous intervenons avec BEM Éducative.<br>
-            Nous collaborons avec des entreprises internationales comme la vôtre pour relever ces défis par le biais de programmes de formation sur mesure.</p>
-
-            <p class="lead">Nous vous accompagnons à travers des programmes de formation axés sur :</p>
-
-            <ul>
-                <li>Le développement durable</li>
-                <li>Le leadership</li>
-                <li>Data Science &amp; l'IA</li>
-                <li>L'innovation et l’entrepreneuriat</li>
-            </ul>
-
-            <p>Grâce à nos programmes, les cadres et managers de votre entreprise acquièrent les compétences dont ils ont besoin aujourd'hui pour pérenniser votre entreprise demain. Ensemble, nous pouvons œuvrer pour un monde prospère, inclusif et durable.</p>
         </div>
-    </div>
-</div>
+
+        <div>
+            <h2>
+                <span class="mb-4 h1 fw-semibold">Comment pouvons-nous vous aider ?</span>
+            </h2>
+            <div>
+                <div>
+                    <p>En tant que Directeur de la Formation (CLO), Directeur de la Transformation (CTO), ou DRH, vous
+                        êtes l’un des moteurs du changement au sein d'une entreprise qui opère à l’international.<br>
+                        Vous êtes conscient que vos collaborateurs, individuellement et collectivement, sont essentiels
+                        à la réalisation des objectifs de votre entreprise.</p>
+
+                    <p>En tant que dirigeant, vous êtes confronté quotidiennement à des défis stratégiques commerciaux,
+                        technologiques et sociaux. Permettre à vos cadres d’acquérir les compétences et les outils
+                        appropriés est donc essentiel à votre réussite.<br>
+                        C'est là que nous intervenons avec BEM Éducative.<br>
+                        Nous collaborons avec des entreprises internationales comme la vôtre pour relever ces défis par
+                        le biais de programmes de formation sur mesure.</p>
+
+                    <p class="lead">Nous vous accompagnons à travers des programmes de formation axés sur :</p>
+
+                    <ul>
+                        <li>Le développement durable</li>
+                        <li>Le leadership</li>
+                        <li>Data Science &amp; l'IA</li>
+                        <li>L'innovation et l’entrepreneuriat</li>
+                    </ul>
+
+                    <p>Grâce à nos programmes, les cadres et managers de votre entreprise acquièrent les compétences
+                        dont ils ont besoin aujourd'hui pour pérenniser votre entreprise demain. Ensemble, nous pouvons
+                        œuvrer pour un monde prospère, inclusif et durable.</p>
+                </div>
+            </div>
+        </div>
 
         <div class="row">
             <div class=" col-lg-12 col-12">
                 <div class="mb-8 pe-lg-8">
                     <!-- heading -->
                     <h2 class="mb-4 h1 fw-semibold">Pourquoi choisir Bem Executive Education Custom Programs</h2>
-                    <p class="lead">Découvrez pourquoi nos programmes sont une solution incontournable pour vos besoins de formation en entreprise</p>
+                    <p class="lead">Découvrez pourquoi nos programmes sont une solution incontournable pour vos besoins
+                        de formation en entreprise</p>
                 </div>
             </div>
         </div>
@@ -163,7 +172,8 @@
                     <!-- Card 1 -->
                     <div class="border p-3 rounded-3 mb-2" id="headingHEC1">
                         <h3 class="mb-0 fs-4">
-                            <a href="#" class="d-flex align-items-center text-inherit" data-bs-toggle="collapse" data-bs-target="#collapseHEC1" aria-expanded="true" aria-controls="collapseHEC1">
+                            <a href="#" class="d-flex align-items-center text-inherit" data-bs-toggle="collapse"
+                                data-bs-target="#collapseHEC1" aria-expanded="true" aria-controls="collapseHEC1">
                                 <span class="me-auto">Des programmes de formation transformationnels</span>
                                 <span class="collapse-toggle ms-4">
                                     <i class="fe fe-chevron-down"></i>
@@ -171,16 +181,21 @@
                             </a>
                         </h3>
                         <!-- collapse -->
-                        <div id="collapseHEC1" class="collapse show" aria-labelledby="headingHEC1" data-bs-parent="#accordionHEC">
+                        <div id="collapseHEC1" class="collapse show" aria-labelledby="headingHEC1"
+                            data-bs-parent="#accordionHEC">
                             <div class="pt-2">
-                                Allez plus loin que la théorie grâce à une approche dynamique qui combine apprentissages académiques et expérimentation en situation réelle. Nos programmes multi-sectoriels vous permettent d'aborder des défis complexes avec une compréhension globale pour une réussite durable.
+                                Allez plus loin que la théorie grâce à une approche dynamique qui combine apprentissages
+                                académiques et expérimentation en situation réelle. Nos programmes multi-sectoriels vous
+                                permettent d'aborder des défis complexes avec une compréhension globale pour une
+                                réussite durable.
                             </div>
                         </div>
                     </div>
                     <!-- Card 2 -->
                     <div class="border p-3 rounded-3 mb-2" id="headingHEC2">
                         <h3 class="mb-0 fs-4">
-                            <a href="#" class="d-flex align-items-center text-inherit" data-bs-toggle="collapse" data-bs-target="#collapseHEC2" aria-expanded="false" aria-controls="collapseHEC2">
+                            <a href="#" class="d-flex align-items-center text-inherit" data-bs-toggle="collapse"
+                                data-bs-target="#collapseHEC2" aria-expanded="false" aria-controls="collapseHEC2">
                                 <span class="me-auto">Une expertise reconnue de notre équipe enseignante</span>
                                 <span class="collapse-toggle ms-4">
                                     <i class="fe fe-chevron-down"></i>
@@ -188,16 +203,20 @@
                             </a>
                         </h3>
                         <!-- collapse -->
-                        <div id="collapseHEC2" class="collapse" aria-labelledby="headingHEC2" data-bs-parent="#accordionHEC">
-                            <div class="pt-3"> 
-                                Bénéficiez de l'expertise de professeurs de renommée mondiale et d'intervenants du monde de l'entreprise. Nos coachs vous apportent un soutien personnalisé pour la mise en pratique de vos apprentissages.
+                        <div id="collapseHEC2" class="collapse" aria-labelledby="headingHEC2"
+                            data-bs-parent="#accordionHEC">
+                            <div class="pt-3">
+                                Bénéficiez de l'expertise de professeurs de renommée mondiale et d'intervenants du monde
+                                de l'entreprise. Nos coachs vous apportent un soutien personnalisé pour la mise en
+                                pratique de vos apprentissages.
                             </div>
                         </div>
                     </div>
                     <!-- Card 3 -->
                     <div class="border p-3 rounded-3 mb-2" id="headingHEC3">
                         <h3 class="mb-0 fs-4">
-                            <a href="#" class="d-flex align-items-center text-inherit" data-bs-toggle="collapse" data-bs-target="#collapseHEC3" aria-expanded="false" aria-controls="collapseHEC3">
+                            <a href="#" class="d-flex align-items-center text-inherit" data-bs-toggle="collapse"
+                                data-bs-target="#collapseHEC3" aria-expanded="false" aria-controls="collapseHEC3">
                                 <span class="me-auto">Mettez en œuvre des idées innovantes et impactantes</span>
                                 <span class="collapse-toggle ms-4">
                                     <i class="fe fe-chevron-down"></i>
@@ -205,9 +224,12 @@
                             </a>
                         </h3>
                         <!-- collapse -->
-                        <div id="collapseHEC3" class="collapse" aria-labelledby="headingHEC3" data-bs-parent="#accordionHEC">
+                        <div id="collapseHEC3" class="collapse" aria-labelledby="headingHEC3"
+                            data-bs-parent="#accordionHEC">
                             <div class="pt-3">
-                                Intégrez les recherches récentes de nos Instituts spécialisés à vos programmes pour rester à l'avant-garde de l'innovation, et mettez en pratique les stratégies les plus efficaces pour votre secteur d’activité.
+                                Intégrez les recherches récentes de nos Instituts spécialisés à vos programmes pour
+                                rester à l'avant-garde de l'innovation, et mettez en pratique les stratégies les plus
+                                efficaces pour votre secteur d’activité.
                             </div>
                         </div>
                     </div>
@@ -216,8 +238,10 @@
         </div>
 
 
+
+</section>
+
         @include('layouts.contact')
 
 
-</section>
 @endsection
