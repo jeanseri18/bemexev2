@@ -232,7 +232,7 @@
                     <div class="d-flex align-items-center justify-content-between">
                         <div>
                             <h2 class="mb-0">MANAGEMENT & STRATÉGIE</h2><BR>
-                            <p class="mb-0">L’expertise d'HEC Paris dans l'enseignement et la recherche en Management et Stratégie est reconnue mondialement.</p>
+                            <p class="mb-0">L’expertise de Bem executif dans l'enseignement et la recherche en Management et Stratégie est reconnue mondialement.</p>
                             <br></div>
                     </div>
                   
@@ -335,7 +335,7 @@
                     <div class="d-flex align-items-center justify-content-between">
                         <div>
                             <h2 class="mb-0">ENTREPRENEURIAT & INNOVATION</h2>
-                            <p class="mb-0">HEC Paris est engagée dans l’entrepreneuriat, l'innovation tant au niveau de la formation qu’à celui de la recherche.</p>
+                            <p class="mb-0"e Bem executif est engagée dans l’entrepreneuriat, l'innovation tant au niveau de la formation qu’à celui de la recherche.</p>
                         </div>
                     </div>
                   
@@ -418,11 +418,11 @@
         <div class="col-xl-12 col-md-12 col-12">
             <div class="mb-lg-12 mb-6">
                 <center>
-                    <span class="text-primary"> Nos certifications</span>
+                    <span class="text-primary"> Nos  certificats executifs</span>
 
                     <h2 class="h1 fw-bold">
-                        Obtenez des certificats reconnus à
-                        <u class="text-warning"><span class="text-primary"> l'international !</span></u>
+                        les certificats 
+                        <u class="text-warning"><span class="text-primary"> executifs</span></u>
                     </h2>
                     <p class="lead mb-0">Certificats pour cadres et dirigeants</p>
                 </center>
@@ -648,7 +648,7 @@
             <div class="mb-lg-8 mb-6">
                 <h2 class="h1 fw-bold">
                     Evenements
-                    <u class="text-warning"><span class="text-primary">et sessions</span></u>
+                    <u class="text-warning"><span class="text-primary">et agenda</span></u>
                 </h2>
                 <p class="lead mb-0">Decouvrez tout nos evenements </p>
             </div>
@@ -735,7 +735,7 @@
         <div class="row">
             <div class="col-lg-12 ">
                 <div class="text-center mb-7 pb-2">
-                    <h2 class="mb-3">Découvrez Nos Partenaires Académiques :</h2>
+                    <h2 class="mb-3">Découvrez Nos Partenaires  :</h2>
                 </div>
             </div>
         </div>
