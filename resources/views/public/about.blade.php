@@ -26,7 +26,7 @@
                     <ul class="list-unstyled " style="font-size:14PX">
                         <li class="mb-2">
 
-                            <span class="ms-2"><h3 >Fara Sakho   Directeur Général BEM </h3>
+                            <span class="ms-2"><h3 >Fara Sakho, Directeur Général BEM </h3>
                             
                             <big>"</big>Dès sa création <span class="text-primary"> BEM Management School</span> s’est consacrée à la formation de managers africains responsables et immédiatement opérationnels. BEM Management School est un établissement d’enseignement supérieur privé général. Il a pour vocation de former et d’accompagner des managers africains responsables et opérationnels immédiatement. Il entend ainsi apporter une contribution décisive à l’émergence et à la consolidation d’une conscience africaine forte et ouverte sur le progrès, audacieuse, ambitieuse et responsable. </span>
                         </li>

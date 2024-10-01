@@ -70,25 +70,24 @@
                     </div>
                 </div>
                 <div class="table-responsive-lg">
-                    <div class="row flex-nowrap">
+                <div class="row mb-7 pb-2 text-center justify-content-center g-0">
+            <div class="col-lg-12 col-12">
+                <div class="d-flex overflow-auto" id="partenairesContainer">
                     @foreach($partenaires as $partenaire)
-                                <div class="col-lg-2 col-md-4 col-6">
-                                    <div class="mb-4 text-center">
-
-
-                                            @if($partenaire->image)
-                                        <img src="{{ Storage::url($partenaire->image) }}"   alt="logo" height="70px">
-                                        @else
-                                        <img src="../assets/images/default-placeholder.jpg" 
-                                            alt="logo" height="70px">
-                                        @endif
-                                    </div>
-                                    
-                                </div>
-
-                                @endforeach
-                                
-                    </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <div class="mb-4 text-center">
+                                @if($partenaire->image)
+                                    <img src="{{ Storage::url($partenaire->image) }}" alt="logo" height="70px">
+                                @else
+                                    <img src="../assets/images/default-placeholder.jpg" alt="logo" height="70px">
+                                @endif
+                            </div>
+                        </div>
+                    @endforeach
+                </div>
+               
+            </div>
+        </div>
                 </div>
             </div>
         </div>

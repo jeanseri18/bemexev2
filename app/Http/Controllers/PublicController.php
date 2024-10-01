@@ -13,8 +13,22 @@ class PublicController extends Controller
     public function welcome()
     {
         $events = Blog::where('type', 'evenement')->where('statut', 'active')->get();
-        $partenaires = Partenaire::all();
-        Action::create([
+$orderedTypes = [
+    'CIE',
+    'SENELEC',
+    'ecobank',
+    'SOCIETE GENERAL',
+    'Orange',
+    'BOAD',
+    'TOTAL',
+    'BICIS',
+    'bdu-ci',
+    'DOUANE SENEGALE',
+];
+
+// Récupération de tous les partenaires en respectant l'ordre défini
+$partenaires = Partenaire::orderByRaw("FIELD(titre, '" . implode("', '", $orderedTypes) . "')DESC") 
+    ->get();        Action::create([
             'action_type' => 'accueil',
             'performed_at' => now(),
         ]);
@@ -119,7 +133,22 @@ class PublicController extends Controller
 
     public function formationprogramme()
     {
-        $partenaires = Partenaire::where('type', 'entreprise')->get();
+$orderedTypes = [
+    'CIE',
+    'SENELEC',
+    'ecobank',
+    'SOCIETE GENERAL',
+    'Orange',
+    'BOAD',
+    'TOTAL',
+    'BICIS',
+    'bdu-ci',
+    'DOUANE SENEGALE',
+];
+
+$partenaires = Partenaire::where('type', 'entreprise')
+    ->orderByRaw("FIELD(titre, '" . implode("', '", $orderedTypes) . "') DESC") // Utilisez DESC pour vous assurer que l'ordre est respecté
+    ->get();
 
         return view('public.formationorg.programme', compact('partenaires'));
     }

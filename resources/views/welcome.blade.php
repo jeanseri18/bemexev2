@@ -729,16 +729,13 @@
     
    
 </div>
-
 <section class="my-xl-7 py-5">
     <div class="container" data-cue="fadeIn" data-show="true"
         style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
         <div class="row">
-
             <div class="col-lg-12 ">
                 <div class="text-center mb-7 pb-2">
-                    <h2 class="mb-3">Découvrez Nos Partenaires Academique :</h2>
-
+                    <h2 class="mb-3">Découvrez Nos Partenaires Académiques :</h2>
                 </div>
             </div>
         </div>
@@ -747,27 +744,25 @@
                 <div class="marquee" data-cue="slideInLeft" data-show="true"
                     style="animation-name: slideInLeft; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
                     <div class="track">
-     @foreach($partenaires as $partenaire)
-                        <a href="#" class="btn btn-light rounded-pill me-1 mb-3 btn-logo btn-lift">
-                            <span> @if($partenaire->image)
-                                        <img src="{{ Storage::url($partenaire->image) }}" alt="{{ $partenaire->titre }}" class="icon-lg">
-                                        @else
-                                        <img src="../assets/images/default-placeholder.jpg" class="icon-xs"
-                                            alt="Image par défaut">
-                                        @endif</span>
-                            <span class="ms-1 d-none d-lg-inline-flex">{{ $partenaire->titre }}</span>
-
+                        @foreach($partenaires as $partenaire)
+                        <a href="#" class="btn btn-white rounded-pill me-1 mb-3 btn-logo btn-lift shadow">
+                            <span  style="width: auto; height: 60px; display: flex; align-items: center; justify-content: center; padding: 10px;" >
+                                @if($partenaire->image)
+                                    <img src="{{ Storage::url($partenaire->image) }}" alt="{{ $partenaire->titre }}" class="partner-logo" style="max-height: 100%; max-width: 100%; object-fit: contain;">
+                                @else
+                                    <img src="../assets/images/default-placeholder.jpg" class="partner-logo" alt="Image par défaut">
+                                @endif
+                            </span>
+                            <!--span class="ms-1 d-none d-lg-inline-flex">{{ $partenaire->titre }}</span-->
                         </a>
-
-@endforeach
+                        @endforeach
                     </div>
                 </div>
             </div>
-
         </div>
-
     </div>
 </section>
+
 <!-- Inclure le CSS de Tiny Slider -->
 
 <!-- Inclure le CSS de Tiny Slider -->
