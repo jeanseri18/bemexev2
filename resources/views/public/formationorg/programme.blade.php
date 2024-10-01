@@ -1,37 +1,6 @@
 @extends('layouts.app')
-<style>
-    /* Positionnement des boutons à côté du carousel */
-  
-    .carousel-control-prev {
-        margin-right: 10px;
-    }
 
-    .carousel-control-next {
-        margin-left: 10px;
-    }
 
-    /* Agrandir les boutons */
-    .carousel-control-prev, .carousel-control-next {
-        width: 70px; /* Augmente la largeur des boutons */
-        height: 70px; /* Augmente la hauteur des boutons */
-    }
-
-    /* Rendre les icônes noires */
-    .custom-carousel-icon {
-        color:black;
-        background-color: transparent; /* Mettre l'icône en noir */
-        width: 50px; /* Ajuster la taille de l'icône */
-        height: 50px; /* Ajuster la taille de l'icône */
-        background-size: 100%, 100%; /* Ajuster la taille pour remplir l'espace */
-    }
-
-    /* Empêcher les images de passer à travers */
-    .carousel-inner {
-        overflow: hidden;
-    }
-
-</style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMjq1iY1qp03y+/c1F9vnF40D3D8s2V+R/6DD" crossorigin="anonymous">
 
 @section('title', 'Formation sur mesure | Bem executive school')
 
@@ -100,8 +69,8 @@
 
                 <span class="fw-semibold display-4">
                 </span>
-        </center>
-        <div class="bg-light py-3">
+        </center></div></secteur>
+        <div class="bg-white py-3">
             <div class="container mt-lg-6">
                 <div class="row mb-6 justify-content-center">
                     <div class="col-lg-12 col-md-12 col-12 text-left">
@@ -110,15 +79,12 @@
                     </div>
                 </div>
 <div class="table-responsive-lg">
-    <div class="row flex-nowrap">
-        <div id="partenairesCarousel" class="carousel carousel-dark slide d-flex" data-bs-ride="false" data-bs-touch="true">
-            <div class="carousel-inner" style="padding: 0 70px;">
-                @foreach($partenaires->chunk(6) as $key => $chunk)
-                <div class="carousel-item @if($key === 0) active @endif">
-                    <div class="row justify-content-center text-center">
-                        @foreach($chunk as $partenaire)
-                        <div class="col-lg-2 col-md-4 col-6 d-flex justify-content-center align-items-center">
-                            <div class="mb-4 card mx-2" style="width: auto; height: 120px; display: flex; align-items: center; justify-content: center; padding: 10px;">
+      <div class="row mb-7 pb-2 text-center justify-content-center g-0">
+            <div class="col-lg-12 col-12">
+                <div class="d-flex overflow-auto" id="partenairesContainer">
+                    @foreach($partenaires as $partenaire)
+                        <div class="col-lg-2 col-md-4 col-6">
+                             <div class="mb-4 card mx-2" style="width: auto; height: 120px; display: flex; align-items: center; justify-content: center; padding: 10px;">
                                 @if($partenaire->image)
                                 <img src="{{ Storage::url($partenaire->image) }}" alt="logo" style="max-height: 100%; max-width: 100%; object-fit: contain;">
                                 @else
@@ -126,49 +92,9 @@
                                 @endif
                             </div>
                         </div>
-                        @endforeach
-                    </div>
+                    @endforeach
                 </div>
-                @endforeach
-            </div>
-            <button class="carousel-control-prev custom-carousel-control" type="button" data-bs-target="#partenairesCarousel" data-bs-slide="next">
 
-            <!-- Flèche personnalisée précédente -->
-                <span class="custom-carousel-icon carousel-control-prev-icon" aria-hidden="true"></span> <!-- Icône précédente -->
-                <span class="visually-hidden">Previous</span>
-            </button>
-
-            <!-- Flèche personnalisée suivante -->
-            <button class="carousel-control-next custom-carousel-control" type="button" data-bs-target="#partenairesCarousel" data-bs-slide="next">
-                <span class="custom-carousel-icon carousel-control-next-icon" aria-hidden="true"></span> <!-- Icône suivante -->
-                <span class="visually-hidden">Next</span>
-            </button>  <button class="carousel-control-prev custom-carousel-control" type="button" data-bs-target="#partenairesCarousel" data-bs-slide="prev">
-          
-        </div>
-    </div>
-</div>
-
-<style>
-    .custom-carousel-control {
-        background-color: rgba(255, 255, 255, 0.8); /* Couleur de fond semi-transparente */
-        border-radius: 50%; /* Arrondir les coins pour un effet circulaire */
-        width: 40px; /* Largeur de la flèche */
-        height: 40px; /* Hauteur de la flèche */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 24px; /* Taille de la flèche */
-    }
-
-    .custom-carousel-icon {
-        font-size: 24px; /* Taille de l'icône */
-        color: #000; /* Couleur de l'icône */
-    }
-
-    .custom-carousel-control:hover {
-        background-color: rgba(255, 255, 255, 1); /* Couleur de fond au survol */
-    }
-</style>
 
 
 
@@ -176,9 +102,12 @@
 
 
             </div>
+            </div>
 
-        </div>
-
+        </div></section>
+<section class="pb-lg-8 ">
+    <div class="  " style=" padding-left:70px /* 4px */;
+    padding-right:70px;"><br>
         <div>
             <h2>
                 <span class="mb-4 h1 fw-semibold">Comment pouvons-nous vous aider ?</span>
