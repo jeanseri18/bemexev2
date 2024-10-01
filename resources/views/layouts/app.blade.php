@@ -109,7 +109,7 @@
                     <div class="d-flex flex-column gap-3">
                         <span class="text-white-stable">Contact</span>
                         <ul class="list-unstyled mb-0 d-flex flex-column nav nav-footer nav-x-0">
-                            <li>Email<a href="mailto:contact@bemexecutive.education" class="fw-semibold">contact@bemexecutive.education</a></li>
+                            <li>Email:<a href="mailto:contact@bemexecutive.education" class="fw-semibold">contact@bemexecutive.education</a></li>
                             <li>Bureau d'Abidjan & de Douala: <a href="tel:+2250769816200" class="fw-semibold">(+225) 07 69 81 62 00</a></li>
                             <li>Bureau de Dakar:<a href="tel:+221786082397" class="fw-semibold">(+221) 78 608 23 97</a></li>
                             <li>Bureau de Paris: <a href="tel:(+33) 00 0000 0000" class="fw-semibold">(+33) 00 0000 0000</a></li>
