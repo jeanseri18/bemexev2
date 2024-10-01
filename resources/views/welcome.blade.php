@@ -335,7 +335,7 @@
                     <div class="d-flex align-items-center justify-content-between">
                         <div>
                             <h2 class="mb-0">ENTREPRENEURIAT & INNOVATION</h2>
-                            <p class="mb-0"e Bem executif est engagée dans l’entrepreneuriat, l'innovation tant au niveau de la formation qu’à celui de la recherche.</p>
+                            <p class="mb-0"> Bem executif est engagée dans l’entrepreneuriat, l'innovation tant au niveau de la formation qu’à celui de la recherche.</p>
                         </div>
                     </div>
                   
