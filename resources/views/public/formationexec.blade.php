@@ -76,7 +76,7 @@
                     <div class="table-responsive-lg">
                         <div class="row mb-7 pb-2 text-center justify-content-center g-0">
                             <div class="col-lg-12 col-12">
-                                <div class="d-flex overflow-auto" id="partenairesContainer">
+                                <div class="row" id="partenairesContainer">
                                     @foreach($partenaires as $partenaire)
                                     <div class="col-lg-2 col-md-4 col-6">
                                         <div class="mb-4 text-center">
