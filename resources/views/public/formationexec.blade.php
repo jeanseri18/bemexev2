@@ -60,38 +60,39 @@
                 </div>
             </div>
             <!-- Section Partenaires -->
-            <div class="col-xl-12  col-md-12 col-12">
-                <div class="bg-white py-8">
-                    <div class="container mt-lg-6">
-                        <div class="row mb-6 justify-content-center">
-                            <div class="col-lg-12 col-md-12 col-12 text-left">
-                                <span
-                                    class="text-primary mb-0 d-block text-uppercase fw-semibold ls-xl">Partenaires</span>
-                            </div>
+            v class="col-xl-12  col-md-12 col-12">
+            <div class="bg-white py-3">
+                <div class="container mt-lg-6">
+                    <div class="row mb-6 justify-content-center">
+                        <div class="col-lg-12 col-md-12 col-12 text-left">
+                            <span class="text-primary mb-0 d-block text-uppercase fw-semibold ls-xl">Tous nos
+                                partenaires academique</span>
                         </div>
-                        <div class="table-responsive-lg">
-                            <div class="row flex-nowrap">
-                            @foreach($partenaires as $partenaire)
-                                <div class="col-lg-2 col-md-4 col-6">
-                                    <div class="mb-4 text-center">
-
-
+                    </div>
+                    <div class="table-responsive-lg">
+                        <div class="row mb-7 pb-2 text-center justify-content-center g-0">
+                            <div class="col-lg-12 col-12">
+                                <div class="d-flex overflow-auto" id="partenairesContainer">
+                                    @foreach($partenaires as $partenaire)
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                        <div class="mb-4 text-center">
                                             @if($partenaire->image)
-                                        <img src="{{ Storage::url($partenaire->image) }}"   alt="logo" height="70px">
-                                        @else
-                                        <img src="../assets/images/default-placeholder.jpg" 
-                                            alt="logo" height="70px">
-                                        @endif
+                                            <img src="{{ Storage::url($partenaire->image) }}" alt="logo" height="70px">
+                                            @else
+                                            <img src="../assets/images/default-placeholder.jpg" alt="logo"
+                                                height="70px">
+                                            @endif
+                                        </div>
                                     </div>
+                                    @endforeach
                                 </div>
 
-                                @endforeach
-                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
             <!-- Section Témoignages -->
    <!-- Formulaire de contact -->
