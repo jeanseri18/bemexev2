@@ -39,25 +39,58 @@
                 <h2> Gouvernance :</h2><br>
                 <div class="row gy-4 gy-xl-0">
                     <div class="col-xl-6 col-md-6 col-12 " style="height:200px">
-                        <div class="card card-lift h-100 text-center text-lg-start bg-primary text-white ">
+                        <div class=" h-100 text-center text-lg-start  text-white ">
                             <div class="p-2">
-                                <a
-                                    href="{{ asset('pdf/BEM  ESSEC Executive Education -Détail des Modules  Administrateurs Banques (1) 1.pdf') }}"><img
-                                        src="" alt="" class="img-fluid rounded-3 w-100"></a>
-                            </div>
-                            <div class="card-body pt-2 text-center ">
-                                <h3> <a href="{{ asset('pdf/BEM  ESSEC Executive Education -Détail des Modules  Administrateurs Banques (1) 1.pdf') }}"
-                                        class="text-white text-center" href="#!">ADMINISTRATEUR DE BANQUE </a></h3>
+                                <div class="card card-hover">
+                                    <a href="{{ asset('pdf/FICHE BUSINESS D & MARKETING 1.pdf') }}">
+                                        <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.13.27.png"
+                                            alt="course" class="card-img-top">
+                                    </a>
+                                    <!-- Card Body -->
+                                    <div class="card-body">
+
+                                        <h4 class="mb-2 text-truncate-line-2"><a
+                                                href="{{ asset('pdf/BEM  ESSEC Executive Education -Détail des Modules  Administrateurs Banques (1) 1.pdf') }}"
+                                                class="text-inherit">Administrateurs de Banques</a></h4>
+                                        <!-- List -->
+                                        <small>Ce programme forme les participants aux meilleures pratiques en matière de gestion financière, conformité réglementaire et prise de décision stratégique dans le secteur bancaire. Les participants apprendront à naviguer dans les défis du marché tout en assurant une rentabilité durable.</small>
+
+                                        <br>
+                                        <br>
+
+                                    </div>
+                                    <!-- Card Footer -->
+                                </div><br>
+
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-md-6 col-12" style="height:200px">
-                        <div class="card card-lift h-100 text-center text-lg-start bg-primary text-white">
-                            <div class="p-2">
-                                <a href="#"><img src="" alt="" class="img-fluid rounded-3 w-100"></a>
-                            </div>
-                            <div class="card-body pt-2  text-center">
-                                <h3><a class="text-white text-center" href="#!">ADMINISTRATEUR DE SOCIETE</a></h3>
+
+                    <div class="col-xl-6 col-md-6 col-12">
+                        <div class="  h-100 text-center text-lg-start  text-white">
+                            <div class=" h-100 text-center text-lg-start  text-white ">
+                                <div class="p-2">
+                                    <div class="card card-hover">
+                                        <a href="#">
+                                            <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.13.08.png"
+                                                alt="course" class="card-img-top">
+                                        </a>
+                                        <!-- Card Body -->
+                                        <div class="card-body">
+
+                                            <h4 class="mb-2 text-truncate-line-2"><a href="#"
+                                                    class="text-inherit">Administrateurs de societé</a></h4>
+                                            <!-- List -->
+                                            <small>Ce programme aborde les compétences essentielles en gestion d'entreprise, leadership et stratégies de croissance. Les participants acquerront des outils pour optimiser la performance organisationnelle et gérer efficacement les ressources humaines et financières.</small>
+
+                                            <br>
+                                            <br>
+
+                                        </div>
+                                        <!-- Card Footer -->
+                                    </div><br>
+
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -65,43 +98,45 @@
             </div>
             <!-- Section Partenaires -->
             <div class="col-xl-12 col-md-12 col-12">
-            <div class="bg-white py-3">
-                <div class="container mt-lg-6">
-                    <div class="row mb-6 justify-content-center">
-                        <div class="col-lg-12 col-md-12 col-12 text-left">
-                            <span class="text-primary mb-0 d-block text-uppercase fw-semibold ls-xl">Tous nos
-                                partenaires academique</span>
+                <div class="bg-white py-3">
+                    <div class="container mt-lg-6">
+                        <div class="row mb-6 justify-content-center">
+                            <div class="col-lg-12 col-md-12 col-12 text-left">
+                                <span class="text-primary mb-0 d-block text-uppercase fw-semibold ls-xl">Tous
+                                    nos
+                                    partenaires academique</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="table-responsive-lg">
-                        <div class="row mb-7 pb-2 text-center justify-content-center g-0">
-                            <div class="col-lg-12 col-12">
-                                <div class="row" id="partenairesContainer">
-                                    @foreach($partenaires as $partenaire)
-                                    <div class="col-lg-2 col-md-4 col-6">
-                                        <div class="mb-4 text-center">
-                                            @if($partenaire->image)
-                                            <img src="{{ Storage::url($partenaire->image) }}" alt="logo" height="70px">
-                                            @else
-                                            <img src="../assets/images/default-placeholder.jpg" alt="logo"
-                                                height="70px">
-                                            @endif
+                        <div class="table-responsive-lg">
+                            <div class="row mb-7 pb-2 text-center justify-content-center g-0">
+                                <div class="col-lg-12 col-12">
+                                    <div class="row" id="partenairesContainer">
+                                        @foreach($partenaires as $partenaire)
+                                        <div class="col-lg-2 col-md-4 col-6">
+                                            <div class="mb-4 text-center">
+                                                @if($partenaire->image)
+                                                <img src="{{ Storage::url($partenaire->image) }}" alt="logo"
+                                                    height="70px">
+                                                @else
+                                                <img src="../assets/images/default-placeholder.jpg" alt="logo"
+                                                    height="70px">
+                                                @endif
+                                            </div>
                                         </div>
+                                        @endforeach
                                     </div>
-                                    @endforeach
-                                </div>
 
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Section Témoignages -->
-        <!-- Formulaire de contact -->
-        
-    </div>
+            <!-- Section Témoignages -->
+            <!-- Formulaire de contact -->
+
+        </div>
     </div>
     @include('layouts.contact')
     @endsection
