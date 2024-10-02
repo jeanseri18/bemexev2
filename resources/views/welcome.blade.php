@@ -182,7 +182,7 @@
                     <ul class="list-unstyled mb-5" style="font-size:14PX">
                         <li class="mb-2">
 
-                            <span class="ms-2"><h3 >Fara Sakho   Directeur Général BEM </h3>
+                            <span class="ms-2"><h3 >Mot du DG de BEM Executive  Education  </h3>
                             
                             <big>"</big>Dès sa création <span class="text-primary"> BEM Management School</span> s’est consacrée à la formation de managers africains responsables et immédiatement opérationnels. BEM Management School est un établissement d’enseignement supérieur privé général. Il a pour vocation de former et d’accompagner des managers africains responsables et opérationnels immédiatement. Il entend ainsi apporter une contribution décisive à l’émergence et à la consolidation d’une conscience africaine forte et ouverte sur le progrès, audacieuse, ambitieuse et responsable. </span>
                         </li>
@@ -232,7 +232,7 @@
                     <div class="d-flex align-items-center justify-content-between">
                         <div>
                             <h2 class="mb-0">MANAGEMENT & STRATÉGIE</h2><BR>
-                            <p class="mb-0">L’expertise de Bem executif dans l'enseignement et la recherche en Management et Stratégie est reconnue mondialement.</p>
+                            <p class="mb-0">L’expertise de BEM Executive  Education dans l'enseignement et la recherche en Management et Stratégie est reconnue mondialement.</p>
                             <br></div>
                     </div>
                   
@@ -335,7 +335,7 @@
                     <div class="d-flex align-items-center justify-content-between">
                         <div>
                             <h2 class="mb-0">ENTREPRENEURIAT & INNOVATION</h2>
-                            <p class="mb-0"> Bem executif est engagée dans l’entrepreneuriat, l'innovation tant au niveau de la formation qu’à celui de la recherche.</p>
+                            <p class="mb-0"> BEM Executive  Education est engagée dans l’entrepreneuriat, l'innovation tant au niveau de la formation qu’à celui de la recherche.</p>
                         </div>
                     </div>
                   
@@ -421,8 +421,8 @@
                     <span class="text-primary"> Nos  certificats executifs</span>
 
                     <h2 class="h1 fw-bold">
-                        les certificats 
-                        <u class="text-warning"><span class="text-primary"> executifs</span></u>
+                        Les Certificats 
+                        <u class="text-warning"><span class="text-primary"> Executifs</span></u>
                     </h2>
                     <p class="lead mb-0">Certificats pour cadres et dirigeants</p>
                 </center>
@@ -454,183 +454,92 @@
 
     <div class="item tns-item container" aria-hidden="true" tabindex="-1">
         <!-- Card -->
-        <div class="card card-hover">
-            <a href="../course-single.html">
-                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.11.04.png" alt="course" class="card-img-top">
-            </a>
-            <!-- Card Body -->
-            <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                    <span class="badge bg-info-soft">Certificat ESSEC</span>
-                    <a href="#" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
-                </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="#" class="text-inherit">Administrateur de banque</a></h4>
-                <!-- List -->
-                <small>Formation complète pour la gestion des opérations bancaires, y compris la conformité réglementaire et la gestion des risques.</small>
-               
-            </div>
-            <!-- Card Footer -->
-        </div>
-    </div>
-    <div class="item tns-item container" aria-hidden="true" tabindex="-1">
-        <!-- Card -->
-        <div class="card card-hover">
-            <a href="../course-single.html">
-                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.13.08.png" alt="course" class="card-img-top">
-            </a>
-            <!-- Card Body -->
-            <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                    <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="#" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
-                </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="#" class="text-inherit">Advanced Finance Program</a></h4>
-                <!-- List -->
-                <small>Programme avancé couvrant la finance d'entreprise, les marchés financiers et la gestion des investissements.</small>
-               
-            </div>
-            <!-- Card Footer -->
-        </div>
-    </div>
-    <div class="item tns-item container" aria-hidden="true" tabindex="-1">
-        <!-- Card -->
-        <div class="card card-hover">
-            <a href="../course-single.html">
-                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.13.27.png" alt="course" class="card-img-top">
-            </a>
-            <!-- Card Body -->
-            <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                    <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="#" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
-                </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="#" class="text-inherit">Executive Leadership Program</a></h4>
-                <!-- List -->
-                <small>Formation sur le leadership stratégique, la gestion du changement et le développement personnel des cadres supérieurs.</small>
-               
-            </div>
-            <!-- Card Footer -->
-        </div>
-    </div>
-    <div class="item tns-item container" aria-hidden="true" tabindex="-1">
-        <!-- Card -->
-        <div class="card card-hover">
-            <a href="../course-single.html">
-                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.13.37.png" alt="course" class="card-img-top">
-            </a>
-            <!-- Card Body -->
-            <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                    <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="#" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
-                </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="#" class="text-inherit">Executive Leadership Program Bilingue</a></h4>
-                <!-- List -->
-                <small>Formation en leadership exécutif en anglais et en français, axée sur la gestion interculturelle et la communication.</small>
-               
-            </div>
-            <!-- Card Footer -->
-        </div>
-    </div>
-    <div class="item tns-item container" aria-hidden="true" tabindex="-1">
-        <!-- Card -->
-        <div class="card card-hover">
-            <a href="../course-single.html">
-                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.13.57.png" alt="course" class="card-img-top">
-            </a>
-            <!-- Card Body -->
-            <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                    <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="#" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
-                </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="#" class="text-inherit">Executive Coaching Program</a></h4>
-                <!-- List -->
-                <small>Coaching exécutif personnalisé pour le développement des compétences de leadership et la gestion de la performance.</small>
-               
-            </div>
-            <!-- Card Footer -->
-        </div>
-    </div>
-    <div class="item tns-item container" aria-hidden="true" tabindex="-1">
-        <!-- Card -->
-        <div class="card card-hover">
-            <a href="../course-single.html">
-                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.14.17.png" alt="course" class="card-img-top">
-            </a>
-            <!-- Card Body -->
-            <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                    <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="#" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
-                </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="#" class="text-inherit">Senior Management Program</a></h4>
-                <!-- List -->
-                <small>Programme pour les cadres supérieurs, axé sur la stratégie, la gestion de l'innovation et le leadership organisationnel.</small>
-               
-            </div>
-            <!-- Card Footer -->
-        </div>
-    </div>
-    <div class="item tns-item container" aria-hidden="true" tabindex="-1">
-        <!-- Card -->
-        <div class="card card-hover">
-            <a href="../course-single.html">
+         <div class="card card-hover">
+            <a href="{{ asset('pdf/FICHE INNONVATION & CREATIVE 1.pdf') }}">
                 <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.14.30.png" alt="course" class="card-img-top">
             </a>
             <!-- Card Body -->
             <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="#" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
+                    <a href="{{ asset('pdf/FICHE INNONVATION & CREATIVE 1.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
                 </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="#" class="text-inherit">Certificat Leadership & Innovation Publique</a></h4>
+                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/FICHE INNONVATION & CREATIVE 1.pdf') }}" class="text-inherit">Certificat Innovation et Créativité </a></h4>
                 <!-- List -->
-                <small>Programme axé sur le leadership dans le secteur public, avec un accent sur l'innovation et la gestion des politiques publiques.</small>
+                <small>Programme combinant les méthodologies de gestion de projet prédictives et agiles pour une flexibilité maximale.</small>
+               <br>
+               <br>
                
             </div>
             <!-- Card Footer -->
-        </div>
+        </div><br>
     </div>
     <div class="item tns-item container" aria-hidden="true" tabindex="-1">
         <!-- Card -->
         <div class="card card-hover">
-            <a href="../course-single.html">
-                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.14.40.png" alt="course" class="card-img-top">
+            <a href="{{ asset('pdf/FICHE BUSINESS D & MARKETING 1.pdf') }}">
+                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.13.08.png" alt="course" class="card-img-top">
             </a>
             <!-- Card Body -->
             <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="#" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
+                    <a href="{{ asset('pdf/FICHE BUSINESS D & MARKETING 1.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
                 </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="#" class="text-inherit">Certificat Lean Six Sigma</a></h4>
+                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/FICHE BUSINESS D & MARKETING 1.pdf') }}" class="text-inherit">Certificat Business Développement et Marketing</a></h4>
                 <!-- List -->
-                <small>Formation sur la méthodologie Lean Six Sigma pour améliorer les processus et la qualité dans les organisations.</small>
+                <small>Programme combinant les méthodologies de gestion de projet prédictives et agiles pour une flexibilité maximale.</small>
+               <br>
+               <br>
                
             </div>
             <!-- Card Footer -->
-        </div>
+        </div><br>
     </div>
     <div class="item tns-item container" aria-hidden="true" tabindex="-1">
         <!-- Card -->
         <div class="card card-hover">
-            <a href="../course-single.html">
+            <a href="{{ asset('pdf/FICHE CAPITAL HUMAIN 1.pdf') }}">
                 <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.14.49.png" alt="course" class="card-img-top">
             </a>
             <!-- Card Body -->
             <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="#" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
+                    <a href="{{ asset('pdf/FICHE CAPITAL HUMAIN 1.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
                 </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="#" class="text-inherit">Gestion de Projet Prédictive & Agile</a></h4>
+                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/FICHE CAPITAL HUMAIN 1.pdf') }}" class="text-inherit">Certificat Capital Humain </a></h4>
                 <!-- List -->
                 <small>Programme combinant les méthodologies de gestion de projet prédictives et agiles pour une flexibilité maximale.</small>
+               <br>
+               <br>
+               <br>
                
             </div>
             <!-- Card Footer -->
-        </div>
+        </div><br>
+    </div>
+    <div class="item tns-item container" aria-hidden="true" tabindex="-1">
+        <!-- Card -->
+        <div class="card card-hover">
+            <a href="{{ asset('pdf/FICHE COM RELATION P 1.pdf') }}">
+                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.13.27.png" alt="course" class="card-img-top">
+            </a>
+            <!-- Card Body -->
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <span class="badge bg-info-soft">Certificat Executif</span>
+                    <a href="{{ asset('pdf/FICHE COM RELATION P 1.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
+                </div>
+                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/FICHE COM RELATION P 1.pdf') }}" class="text-inherit">Certificat Communication Et Relation Publique</a></h4>
+                <!-- List -->
+                <small>Programme combinant les méthodologies de gestion de projet prédictives et agiles pour une flexibilité maximale.</small>
+               <br>
+               <br>
+               
+            </div>
+            <!-- Card Footer -->
+        </div><br>
     </div>
                             </div>
                             </div>
@@ -650,7 +559,7 @@
                     Evenements
                     <u class="text-warning"><span class="text-primary">et agenda</span></u>
                 </h2>
-                <p class="lead mb-0">Decouvrez tout nos evenements </p>
+                <p class="lead mb-0">Decouvrez tous nos evenements </p>
             </div>
         </div>
     </div>
@@ -746,7 +655,7 @@
                     <div class="track">
                         @foreach($partenaires as $partenaire)
                         <a href="#" class="btn btn-white rounded-pill me-1 mb-3 btn-logo btn-lift shadow">
-                            <span  style="width: auto; height: 60px; display: flex; align-items: center; justify-content: center; padding: 10px;" >
+                            <span  style="width: auto; height: 80px; display: flex; align-items: center; justify-content: center; padding: 10px;" >
                                 @if($partenaire->image)
                                     <img src="{{ Storage::url($partenaire->image) }}" alt="{{ $partenaire->titre }}" class="partner-logo" style="max-height: 100%; max-width: 100%; object-fit: contain;">
                                 @else

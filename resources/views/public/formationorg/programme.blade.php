@@ -69,42 +69,48 @@
 
                 <span class="fw-semibold display-4">
                 </span>
-        </center></div></secteur>
-        <div class="bg-white py-3">
-            <div class="container mt-lg-6">
-                <div class="row mb-6 justify-content-center">
-                    <div class="col-lg-12 col-md-12 col-12 text-left">
-                        <span class="text-primary mb-0 d-block text-uppercase fw-semibold ls-xl">Ils nous ont fais
-                            confiance</span>
+        </center>
+    </div>
+    </secteur>
+    <div class="bg-white py-3">
+        <div class="container mt-lg-6">
+            <div class="row mb-6 justify-content-center">
+                <div class="col-lg-12 col-md-12 col-12 text-left">
+                    <span class="text-primary mb-0 d-block text-uppercase fw-semibold ls-xl">Ils nous ont fait
+                        confiance</span>
+                </div>
+            </div>
+            <div class="table-responsive-lg">
+                <div class="row mb-7 pb-2 text-center justify-content-center g-0">
+                    <div class="col-lg-12 col-12">
+                        <div class="d-flex overflow-auto" id="partenairesContainer">
+                            @foreach($partenaires as $partenaire)
+                            <div class="col-lg-2 col-md-4 col-6">
+                                <div class="mb-4 card mx-2"
+                                    style="width: auto; height: 120px; display: flex; align-items: center; justify-content: center; padding: 10px;">
+                                    @if($partenaire->image)
+                                    <img src="{{ Storage::url($partenaire->image) }}" alt="logo"
+                                        style="max-height: 100%; max-width: 100%; object-fit: contain;">
+                                    @else
+                                    <img src="../assets/images/default-placeholder.jpg" alt="logo"
+                                        style="max-height: 100%; max-width: 100%; object-fit: contain;">
+                                    @endif
+                                </div>
+                            </div>
+                            @endforeach
+                        </div>
+
+
+
+
+
+
+
                     </div>
                 </div>
-<div class="table-responsive-lg">
-      <div class="row mb-7 pb-2 text-center justify-content-center g-0">
-            <div class="col-lg-12 col-12">
-                <div class="d-flex overflow-auto" id="partenairesContainer">
-                    @foreach($partenaires as $partenaire)
-                        <div class="col-lg-2 col-md-4 col-6">
-                             <div class="mb-4 card mx-2" style="width: auto; height: 120px; display: flex; align-items: center; justify-content: center; padding: 10px;">
-                                @if($partenaire->image)
-                                <img src="{{ Storage::url($partenaire->image) }}" alt="logo" style="max-height: 100%; max-width: 100%; object-fit: contain;">
-                                @else
-                                <img src="../assets/images/default-placeholder.jpg" alt="logo" style="max-height: 100%; max-width: 100%; object-fit: contain;">
-                                @endif
-                            </div>
-                        </div>
-                    @endforeach
-                </div>
-
-
-
-
-
-
 
             </div>
-            </div>
-
-        </div></section>
+</section>
 <section class="pb-lg-8 ">
     <div class="  " style=" padding-left:70px /* 4px */;
     padding-right:70px;"><br>
@@ -228,7 +234,7 @@
 
 </section>
 
-        @include('layouts.contact')
+@include('layouts.contact')
 
 
 @endsection

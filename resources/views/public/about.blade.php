@@ -26,7 +26,7 @@
                     <ul class="list-unstyled " style="font-size:14PX">
                         <li class="mb-2">
 
-                            <span class="ms-2"><h3 >Fara Sakho, Directeur Général BEM </h3>
+                            <span class="ms-2"><h3 >Mot du DG de BEM Executive  Education </h3>
                             
                             <big>"</big>Dès sa création <span class="text-primary"> BEM Management School</span> s’est consacrée à la formation de managers africains responsables et immédiatement opérationnels. BEM Management School est un établissement d’enseignement supérieur privé général. Il a pour vocation de former et d’accompagner des managers africains responsables et opérationnels immédiatement. Il entend ainsi apporter une contribution décisive à l’émergence et à la consolidation d’une conscience africaine forte et ouverte sur le progrès, audacieuse, ambitieuse et responsable. </span>
                         </li>
@@ -132,15 +132,15 @@
                     style="animation-name: slideInLeft; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
                     <div class="track">
      @foreach($partenaires as $partenaire)
-                        <a href="#" class="btn btn-light rounded-pill me-1 mb-3 btn-logo btn-lift">
-                            <span> @if($partenaire->image)
-                                        <img src="{{ Storage::url($partenaire->image) }}" alt="{{ $partenaire->titre }}" class="icon-lg">
-                                        @else
-                                        <img src="../assets/images/default-placeholder.jpg" class="icon-xs"
-                                            alt="Image par défaut">
-                                        @endif</span>
-                            <span class="ms-1 d-none d-lg-inline-flex">{{ $partenaire->titre }}</span>
-
+     <a href="#" class="btn btn-white rounded-pill me-1 mb-3 btn-logo btn-lift shadow">
+                            <span  style="width: auto; height: 80px; display: flex; align-items: center; justify-content: center; padding: 10px;" >
+                                @if($partenaire->image)
+                                    <img src="{{ Storage::url($partenaire->image) }}" alt="{{ $partenaire->titre }}" class="partner-logo" style="max-height: 100%; max-width: 100%; object-fit: contain;">
+                                @else
+                                    <img src="../assets/images/default-placeholder.jpg" class="partner-logo" alt="Image par défaut">
+                                @endif
+                            </span>
+                            <!--span class="ms-1 d-none d-lg-inline-flex">{{ $partenaire->titre }}</span-->
                         </a>
 
 @endforeach

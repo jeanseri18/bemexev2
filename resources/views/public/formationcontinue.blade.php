@@ -73,13 +73,13 @@
                     <div class="col-xl-6 col-md-6 col-12">
                         <div class="card card-lift h-100 text-center text-lg-start">
                             <div class="p-2">
-                                <a href="{{route('formationdiplomante')}}"><img
+                                <a href="{{route('formationexec')}}"><img
                                         src="../../assets/people-office-work-day 4.png" alt=""
                                         class="img-fluid rounded-3 w-100" style=""></a>
                             </div>
                             <div class="card-body pt-2">
-                                <h3><a class="text-inherit" href="{{ route('formationdiplomante') }}">Formations
-                                        executives</a></h3>
+                                <h3><a class="text-inherit" href="{{ route('formationexec') }}">Formations
+                                        Executives</a></h3>
                             </div>
                         </div>
                     </div>

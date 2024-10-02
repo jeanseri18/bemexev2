@@ -50,7 +50,6 @@ class BlogController extends Controller
         $request->validate([
             'titre' => 'required|string|max:255',
             'detail' => 'required',
-            'statut' => 'required|in:active,inactive',
             'date' => 'nullable|date',
             'heure' => 'nullable|date_format:H:i',
             'image' => 'nullable|image|max:2048',

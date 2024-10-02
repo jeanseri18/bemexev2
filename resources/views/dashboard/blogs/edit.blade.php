@@ -11,21 +11,21 @@
             <!-- Title -->
             <div class="mb-3">
                 <label for="title" class="form-label">Titre</label>
-                <input type="text" id="title" name="title" class="form-control text-dark" value="{{ old('titre', $blog->titre) }}" placeholder="Titre" required>
+                <input type="text" id="title" name="titre" class="form-control text-dark" value="{{ old('titre', $blog->titre) }}" placeholder="Titre" required>
                 <div class="invalid-feedback">Svp entre a le titre</div>
             </div>
 
             <!-- Description -->
             <div class="mb-3">
                 <label for="description" class="form-label">Description</label>
-                <textarea id="description" name="description" class="form-control text-dark" placeholder="blog Description" required>{{ old('detail', $blog->detail) }}</textarea>
+                <textarea id="description" name="detail" class="form-control text-dark" placeholder="blog Description" required>{{ old('detail', $blog->detail) }}</textarea>
                 <div class="invalid-feedback">Svp entre la description.</div>
             </div>
 
             <!-- Type -->
             <div class="mb-3">
                 <label for="type" class="form-label">Type</label>
-                <select id="type" name="type" class="form-select" required>
+                <select id="type" name="Type" class="form-select" required>
                     <option value="" disabled>Select Type</option>
                     <option value="Photo" {{ $blog->Type === 'webinaire' ? 'selected' : '' }}>webinaire</option>
                     <option value="Video" {{ $blog->Type === 'evenement' ? 'selected' : '' }}>evenement</option>

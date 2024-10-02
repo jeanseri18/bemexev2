@@ -59,42 +59,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-12  col-md-12 col-12">
-            <h2> Leadership &  Management  :</h2><br>
-                <div class="row gy-4 gy-xl-0">
-                    <div class="col-xl-6 col-md-6 col-12 " style="height:200px">
-                        <div class="card card-lift h-100 text-center text-lg-start bg-primary text-white ">
-                            <div class="p-2">
-                                <a href="#"><img src="" alt=""
-                                        class="img-fluid rounded-3 w-100"></a>
-                            </div>
-                            <div class="card-body pt-2 text-center ">
-                                <h3><a class="text-white text-center" href="#!">MINI MBA  EXECUTIVE </a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-md-6 col-12" style="height:200px">
-                        <div class="card card-lift h-100 text-center text-lg-start bg-primary text-white">
-                            <div class="p-2">
-                                <a href="#"><img src="" alt=""
-                                        class="img-fluid rounded-3 w-100"></a>
-                            </div>
-                            <div class="card-body pt-2  text-center">
-                                <h3><a class="text-white text-center" href="#!">EXECUTIVE LEADERSHIP PROGRAM</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-12  col-md-12 col-12">
-            <h2> Coaching :</h2><br>
-                
-            </div>
-
-            <div class="col-xl-12  col-md-12 col-12">
-            <h2> E-learning :</h2><br>
-                
-            </div>
             <!-- Section Partenaires -->
             <div class="col-xl-12  col-md-12 col-12">
                 <div class="bg-white py-8">

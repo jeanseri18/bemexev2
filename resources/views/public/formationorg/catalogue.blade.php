@@ -73,7 +73,8 @@
         
 
     <!-- container -->
-    <div class="bg-white container">
+    <div class="bg-white " style=" padding-left:60px /* 4px */;
+    padding-right:60px;">
         <div class="row">
             <!-- col -->
             <div class=" col-xl-12 col-md-12 col-12">

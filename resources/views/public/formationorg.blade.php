@@ -66,13 +66,13 @@
             <div class="container mt-lg-6">
                 <div class="row mb-6 justify-content-center">
                     <div class="col-lg-12 col-md-12 col-12 text-left">
-                        <span class="text-primary mb-0 d-block text-uppercase fw-semibold ls-xl">Tout nos partenaires academique</span>
+                        <span class="text-primary mb-0 d-block text-uppercase fw-semibold ls-xl">Tous nos partenaires academique</span>
                     </div>
                 </div>
                 <div class="table-responsive-lg">
                 <div class="row mb-7 pb-2 text-center justify-content-center g-0">
             <div class="col-lg-12 col-12">
-                <div class="d-flex overflow-auto" id="partenairesContainer">
+                <div class=" row" id="partenairesContainer">
                     @foreach($partenaires as $partenaire)
                         <div class="col-lg-2 col-md-4 col-6">
                             <div class="mb-4 text-center">
