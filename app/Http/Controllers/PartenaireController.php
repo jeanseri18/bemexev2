@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Partenaire;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
+
 
 class PartenaireController extends Controller
 {
