@@ -27,7 +27,7 @@ $orderedTypes = [
 ];
 
 // Récupération de tous les partenaires en respectant l'ordre défini
-$partenaires = Partenaire::orderByRaw("FIELD(titre, '" . implode("', '", $orderedTypes) . "')DESC") 
+$partenaires = Partenaire::where('type', 'ecole')->orderByRaw("FIELD(titre, '" . implode("', '", $orderedTypes) . "')DESC") 
     ->get();        Action::create([
             'action_type' => 'accueil',
             'performed_at' => now(),
@@ -38,12 +38,13 @@ $partenaires = Partenaire::orderByRaw("FIELD(titre, '" . implode("', '", $ordere
     // Méthode pour afficher la page "About"
     public function about()
     {
-        $partenaires = Partenaire::all();
+        $ecoles = Partenaire::where('type', 'ecole')->get();
+        $entreprises = Partenaire::where('type', 'entreprise')->get();
         Action::create([
             'action_type' => 'apropos',
             'performed_at' => now(),
         ]);
-        return view('public.about',compact('partenaires'));
+        return view('public.about',compact('entreprises','ecoles'));
     }
 
     // Méthode pour afficher la page "Partner"

@@ -39,8 +39,9 @@
                     <div class="card-body">
                         <h3 class="h4">Bureau de Paris</h3>
                         <p class="text-gray-500">Contact : <a href="mailto:contact@bemexecutive.education">contact@bemexecutive.education</a></p>
-                        <p class="mb-1 fw-medium">(+33) 00 0000 0000</p>
-                        <p class="fw-medium mb-0">(+33) 00 0000 0000</p>
+                       <br><br>
+                       <br>
+                       <br>
                     </div>
                 </div>
             </div>
