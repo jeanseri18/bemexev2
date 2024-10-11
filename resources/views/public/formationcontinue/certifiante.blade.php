@@ -180,16 +180,16 @@
     <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
         <!-- Card -->
         <div class="card card-hover card-custom ">
-            <a href="{{ asset('pdf/Gestion_Projet_Syllabus 1.pdf') }}">
+            <a href="{{ asset('pdf/Gestion Projet (3).pdf') }}">
                 <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.14.40.png" alt="course" class="card-img-top">
             </a>
             <!-- Card Body -->
             <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="{{ asset('pdf/Gestion_Projet_Syllabus 1.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
+                    <a href="{{ asset('pdf/Gestion Projet (3).pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
                 </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/Gestion_Projet_Syllabus 1.pdf') }}" class="text-inherit">Gestion de Projet</a></h4>
+                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/Gestion Projet (3).pdf') }}" class="text-inherit">Gestion de Projet</a></h4>
                 <!-- List -->
                 <small>Ce programme enseigne les méthodologies modernes de gestion de projet pour garantir la livraison efficace des projets dans les délais et budgets impartis.</small>
                
