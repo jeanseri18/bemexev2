@@ -202,6 +202,14 @@
                         <div class="marquee" data-cue="slideInLeft" data-show="true"
                             style="animation-name: slideInLeft; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
                             <div class="track">
+                            <a href="#" class="btn btn-white rounded-pill me-1 mb-3 btn-logo btn-lift shadow">
+                                    <span
+                                        style="width: auto; height: 80px; display: flex; align-items: center; justify-content: center; padding: 10px;">
+                                        @if($partenaire->image)
+                                        <img src=" {{asset('pdf/Logo.png')}}" alt=""
+                                            class="partner-logo"
+                                            style="max-height: 100%; max-width: 100%; object-fit: contain;">
+</span></a>
                                 @foreach($entreprises as $partenaire)
                                 <a href="#" class="btn btn-white rounded-pill me-1 mb-3 btn-logo btn-lift shadow">
                                     <span

@@ -469,79 +469,6 @@
     </div>
 </section>
 
-<section class="">
-
-    <!-- Hero Section -->
-    <div class="container my-lg-8">
-        <div class="row">
-            <div class="col-xl-12 col-md-12 col-12">
-                <div class="mb-lg-12 mb-6">
-                    <center>
-                        <span class="text-primary">Séminaire </span>
-
-                        <h2 class="h1 fw-bold">Nos récents
-                            <u class="text-warning"><span class="text-primary"> séminaire</span></u>
-                        </h2>
-                        <p class="lead mb-0"></p>
-                    </center>
-                </div>
-            </div>
-        </div>
-        <div class="table-responsive-xl pb-6">
-
-
-            <!-- Tiny Slider pour les cours -->
-
-
-            <div class="position-relative">
-                <ul class="controls" id="my-sliderControls" aria-label="Carousel Navigation" tabindex="0">
-                    <li class="prev" aria-controls="my-slider" tabindex="-1" data-controls="prev">
-                        <i class="fe fe-chevron-left"></i>
-                    </li>
-                    <li class="next" aria-controls="my-slider" tabindex="-1" data-controls="next">
-                        <i class="fe fe-chevron-right"></i>
-                    </li>
-                </ul>
-                <div class="tns-outer" id="my-slider-ow">
-                    <div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span
-                            class="current"></span> </div>
-                    <div id="my-slider-mw" class="tns-ovh">
-                        <div class="tns-inner" id="my-slider-iw">
-                            <div class="sliderFirst tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal"
-                                id="my-slider" style="transform: translate3d(-50%, 0px, 0px);">
-
-                               <!-- <div class="item tns-item container" aria-hidden="true" tabindex="-1">
-                                    <div class="card card-hover">
-                                        <a href="{{ asset('pdf/FICHE INNONVATION & CREATIVE 1.pdf') }}">
-                                            <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.14.30.png"
-                                                alt="course" class="card-img-top">
-                                        </a>
-                                        <div class="card-body">
-                                            <div class="d-flex justify-content-between align-items-center mb-3">
-                                                <span class="badge bg-info-soft">Certificat Executif</span>
-                                                <a href="{{ asset('pdf/FICHE INNONVATION & CREATIVE 1.pdf') }}"
-                                                    class="fs-5"><i class="fe fe-heart align-middle"></i></a>
-                                            </div>
-                                            <h4 class="mb-2 text-truncate-line-2"><a
-                                                    href="{{ asset('pdf/FICHE INNONVATION & CREATIVE 1.pdf') }}"
-                                                    class="text-inherit">Certificat Innovation et Créativité </a></h4>
-                                            <small>Programme combinant les méthodologies de gestion de projet
-                                                prédictives et agiles pour une flexibilité maximale.</small>
-                                            <br>
-                                            <br>
-
-                                        </div>
-                                       
-                                    </div><br>
-                                </div>  Card Footer -->
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                  
-
-</section>
 
 
 <!-- Hero Section -->
@@ -575,7 +502,45 @@
                     <div class="tns-inner" id="eventCarousel-iw">
                         <div class="sliderFirst tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal"
                             id="eventCarousel" style="transform: translate3d(-50%, 0px, 0px);">
+                            <div class="item tns-item container" aria-hidden="true" tabindex="-1">
+                                <!-- Card -->
+                                <div class="card shadow-lg card-lift">
+                                    <a href="{{ route('seminairerabat') }}">
 
+                                        <img src="pdf/Admin_Banques.jpg" class="card-img-top" alt="Image par défaut">
+                                    </a>
+                                    <!-- Card body -->
+                                    <div class="card-body">
+
+                                        <h3 class="mb-4 text-truncate">
+                                            <a href="#!" class="text-inherit">CERTIFICAT EXECUTIF | ADMINISTRATEUR DE
+                                                BANQUES</a>
+                                        </h3>
+                                        <div class="mb-4">
+                                            <div class="mb-3 lh-1">
+                                                <span class="me-1">
+                                                    <i class="bi bi-calendar-check"></i>
+                                                </span>
+                                                <span>du 17 au 22 Février 2025</span>
+                                            </div>
+                                            <div class="lh-1">
+                                                <span class="align-text-top me-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                        fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z">
+                                                        </path>
+                                                        <path
+                                                            d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z">
+                                                        </path>
+                                                    </svg>
+                                                </span>
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             @foreach($events as $event)
                             <div class="item tns-item container" aria-hidden="true" tabindex="-1">
                                 <div class="card mb-4 mb-xl-0 card-hover border">
