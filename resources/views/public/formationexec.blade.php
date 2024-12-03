@@ -36,7 +36,7 @@
             </div>
 
             <div class="col-xl-12  col-md-12 col-12">
-                <a class="btn btn-primary" href="{{ asset('pdf/BEM Executive Education.pdf') }}" target="blank"> Decouvrez nos programmmes de formations </a><br>
+           <h2> Decouvrez notre programmme de formation    <a class="btn btn-primary" href="{{ asset('pdf/BEM Executive Education.pdf') }}" target="blank"> Telecharger la brochure </a></h2><br>
             
             </div>
             <!-- Section Partenaires -->
