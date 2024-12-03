@@ -36,8 +36,10 @@
             </div>
 
             <div class="col-xl-12  col-md-12 col-12">
-           <h2> Decouvrez notre programmme de formation    <a class="btn btn-primary" href="{{ asset('pdf/BEM Executive Education.pdf') }}" target="blank"> Telecharger la brochure </a></h2><br>
-            
+                <h2> Decouvrez notre programmme de formation <a class="btn btn-primary"
+                        href="{{ asset('pdf/BEM Executive Education.pdf') }}" target="blank"> Telecharger la brochure
+                    </a></h2><br>
+
             </div>
             <!-- Section Partenaires -->
             <div class="col-xl-12 col-md-12 col-12">
@@ -54,6 +56,14 @@
                             <div class="row mb-7 pb-2 text-center justify-content-center g-0">
                                 <div class="col-lg-12 col-12">
                                     <div class="row" id="partenairesContainer">
+                                        <div class="col-lg-2 col-md-4 col-6">
+                                            <div class="mb-4 text-center">
+
+
+                                            <img src="{{asset('pdf/Logo.png')}}" alt="logo"
+                                            height="70px">                                                
+                                            </div>
+                                        </div>
                                         @foreach($partenaires as $partenaire)
                                         <div class="col-lg-2 col-md-4 col-6">
                                             <div class="mb-4 text-center">

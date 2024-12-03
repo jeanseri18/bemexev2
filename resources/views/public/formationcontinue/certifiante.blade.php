@@ -144,103 +144,128 @@
                 <div class="container mt-lg-6">
                     <div class="row mb-6 justify-content-center">
                         <div class="col-lg-12 col-md-12 col-12 text-left">
-                            <span class="text-primary mb-0 d-block text-uppercase fw-semibold ls-xl">Nos partenaires académiques</span>
+                            <span class="text-primary mb-0 d-block text-uppercase fw-semibold ls-xl">Nos partenaires
+                                académiques</span>
                         </div>
                     </div>
                     <div class="table-responsive-lg">
                         <div class="row mb-7 pb-2 text-center justify-content-center g-0">
                             <div class="col-lg-12 col-12">
                                 <div class="row" id="partenairesContainer">
-                                    @foreach($partenaires as $partenaire)
-                                    <div class="col-lg-2 col-md-4 col-6">
-                                        <div class="mb-4 text-center">
-                                            @if($partenaire->image)
-                                            <img src="{{ Storage::url($partenaire->image) }}" alt="logo" height="70px">
-                                            @else
-                                            <img src="../assets/images/default-placeholder.jpg" alt="logo"
-                                                height="70px">
-                                            @endif
+                                    <div class="col-lg-12 col-12">
+                                        <div class="row" id="partenairesContainer">
+                                            <div class="col-lg-2 col-md-4 col-6">
+                                                <div class="mb-4 text-center">
+                                                <img src="{{asset('pdf/Logo.png')}}" alt="logo"
+                                                height="70px">                                                </div>
+                                            </div>
+                                            @foreach($partenaires as $partenaire)
+                                            <div class="col-lg-2 col-md-4 col-6">
+                                                <div class="mb-4 text-center">
+                                                    @if($partenaire->image)
+                                                    <img src="{{ Storage::url($partenaire->image) }}" alt="logo"
+                                                        height="70px">
+                                                    @else
+                                                    <img src="../assets/images/default-placeholder.jpg" alt="logo"
+                                                        height="70px">
+                                                    @endif
+                                                </div>
+                                            </div>
+                                            @endforeach
                                         </div>
-                                    </div>
-                                    @endforeach
-                                </div>
 
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <h3> Des Programmes Ciblés et Pratiques</h3>
-        <p>
-            Nos formations certifiantes couvrent un large éventail de compétences clés pour les cadres et dirigeants :
-        </p>
-        <d<div class="row">
-    <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
-        <!-- Card -->
-        <div class="card card-hover card-custom ">
-            <a href="{{ asset('pdf/Gestion Projet.pdf') }}">
-                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.14.40.png" alt="course" class="card-img-top">
-            </a>
-            <!-- Card Body -->
-            <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                    <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="{{ asset('pdf/Gestion Projet.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
-                </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/Gestion Projet.pdf') }}" class="text-inherit">Gestion de Projet</a></h4>
-                <!-- List -->
-                <small>Ce programme enseigne les méthodologies modernes de gestion de projet pour garantir la livraison efficace des projets dans les délais et budgets impartis.</small>
-               
-            </div>
-            <!-- Card Footer -->
-        </div><br>
-    </div>
+                <h3> Des Programmes Ciblés et Pratiques</h3>
+                <p>
+                    Nos formations certifiantes couvrent un large éventail de compétences clés pour les cadres et
+                    dirigeants :
+                </p>
+                <d<div class="row">
+                    <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
+                        <!-- Card -->
+                        <div class="card card-hover card-custom ">
+                            <a href="{{ asset('pdf/Gestion Projet.pdf') }}">
+                                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.14.40.png"
+                                    alt="course" class="card-img-top">
+                            </a>
+                            <!-- Card Body -->
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <span class="badge bg-info-soft">Certificat Executif</span>
+                                    <a href="{{ asset('pdf/Gestion Projet.pdf') }}" class="fs-5"><i
+                                            class="fe fe-heart align-middle"></i></a>
+                                </div>
+                                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/Gestion Projet.pdf') }}"
+                                        class="text-inherit">Gestion de Projet</a></h4>
+                                <!-- List -->
+                                <small>Ce programme enseigne les méthodologies modernes de gestion de projet pour
+                                    garantir la livraison efficace des projets dans les délais et budgets
+                                    impartis.</small>
 
- 
+                            </div>
+                            <!-- Card Footer -->
+                        </div><br>
+                    </div>
 
-    <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
-        <!-- Card -->
-        <div class="card card-hover card-custom ">
-            <a href="{{ asset('pdf/CERTIFICAT ADM DE BANQUE RABAT 2025.pdf') }}">
-                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.13.27.png" alt="course" class="card-img-top">
-            </a>
-            <!-- Card Body -->
-            <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                    <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="{{ asset('pdf/CERTIFICAT ADM DE BANQUE RABAT 2025.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
-                </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/CERTIFICAT ADM DE BANQUE RABAT 2025.pdf') }}" class="text-inherit">Certificat administration de banque </a></h4>
-                <!-- List -->
-                <small>Ce programme forme les participants aux meilleures pratiques en matière de gestion financière, conformité réglementaire et prise de décision stratégique dans le secteur bancaire. </small>
-                
-            </div>
-            <!-- Card Footer -->
-        </div><br>
-    </div>
 
-    <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
-        <!-- Card -->
-        <div class="card card-hover card-custom ">
-            <a href="{{ asset('pdf/Supply Chain.pdf') }}">
-                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.13.37.png" alt="course" class="card-img-top">
-            </a>
-            <!-- Card Body -->
-            <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                    <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="{{ asset('pdf/Supply Chain.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
-                </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/Supply Chain.pdf') }}" class="text-inherit">Certificat en Supply Chain</a></h4>
-                <!-- List -->
-                <small>Programme axé sur la gestion efficace de la chaîne d'approvisionnement, abordant la logistique, l'approvisionnement et la gestion des stocks.</small>
-               
-            </div>
-            <!-- Card Footer -->
-        </div><br>
-    </div>
-   
+
+                    <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
+                        <!-- Card -->
+                        <div class="card card-hover card-custom ">
+                            <a href="{{ asset('pdf/CERTIFICAT ADM DE BANQUE RABAT 2025.pdf') }}">
+                                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.13.27.png"
+                                    alt="course" class="card-img-top">
+                            </a>
+                            <!-- Card Body -->
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <span class="badge bg-info-soft">Certificat Executif</span>
+                                    <a href="{{ asset('pdf/CERTIFICAT ADM DE BANQUE RABAT 2025.pdf') }}" class="fs-5"><i
+                                            class="fe fe-heart align-middle"></i></a>
+                                </div>
+                                <h4 class="mb-2 text-truncate-line-2"><a
+                                        href="{{ asset('pdf/CERTIFICAT ADM DE BANQUE RABAT 2025.pdf') }}"
+                                        class="text-inherit">Certificat administration de banque </a></h4>
+                                <!-- List -->
+                                <small>Ce programme forme les participants aux meilleures pratiques en matière de
+                                    gestion financière, conformité réglementaire et prise de décision stratégique dans
+                                    le secteur bancaire. </small>
+
+                            </div>
+                            <!-- Card Footer -->
+                        </div><br>
+                    </div>
+
+                    <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
+                        <!-- Card -->
+                        <div class="card card-hover card-custom ">
+                            <a href="{{ asset('pdf/Supply Chain.pdf') }}">
+                                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.13.37.png"
+                                    alt="course" class="card-img-top">
+                            </a>
+                            <!-- Card Body -->
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <span class="badge bg-info-soft">Certificat Executif</span>
+                                    <a href="{{ asset('pdf/Supply Chain.pdf') }}" class="fs-5"><i
+                                            class="fe fe-heart align-middle"></i></a>
+                                </div>
+                                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/Supply Chain.pdf') }}"
+                                        class="text-inherit">Certificat en Supply Chain</a></h4>
+                                <!-- List -->
+                                <small>Programme axé sur la gestion efficace de la chaîne d'approvisionnement, abordant
+                                    la logistique, l'approvisionnement et la gestion des stocks.</small>
+
+                            </div>
+                            <!-- Card Footer -->
+                        </div><br>
+                    </div>
+
 
 
 </section>
