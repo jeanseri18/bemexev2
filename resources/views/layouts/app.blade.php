@@ -45,7 +45,7 @@
         <div class="collapse navbar-collapse" id="navbar-default">
             <ul class="navbar-nav mt-3 mt-lg-0 mx-xxl-auto">
                 <li><a href="{{ route('about') }}" class="dropdown-item">A propos</a></li>
-                <li><a href="{{ route('formationorg') }}" class="dropdown-item">Formations organisation</a></li>
+                <li><a href="{{ route('formationorg') }}" class="dropdown-item">Formation entreprise</a></li>
                 <li><a href="{{ route('formationcontinue') }}" class="dropdown-item">Formations continue </a></li>
                 <li><a href="{{ route('events') }}" class="dropdown-item">Agenda et event</a></li>
                 <li><a href="{{ route('blog') }}" class="dropdown-item">Actualités</a></li>
@@ -74,7 +74,7 @@
                   
                 </div>
             </div>
-            <div class="col-xl-3 col-md-6 col-12">
+            <!--div class="col-xl-3 col-md-6 col-12">
                 <div class="d-flex flex-column gap-4">
                     <span class="text-white-stable">Nos Formations</span>
                     <ul class="list-unstyled mb-0 d-flex flex-column nav nav-footer nav-x-0">
@@ -83,14 +83,17 @@
                         <li><a href="#" class="nav-link">Formation pour organisation</a></li>
                     </ul>
                 </div>
-            </div>
+            </div-->
             <div class="col-xl-2 col-md-3 col-6">
                 <div class="d-flex flex-column gap-3">
                     <span class="text-white-stable">Pages</span>
                     <ul class="list-unstyled mb-0 d-flex flex-column nav nav-footer nav-x-0">
                         <li><a href="{{ route('about') }}" class="nav-link">A propos</a></li>
-                        <li><a href="{{ route('partner') }}" class="nav-link">Entreprise partenaire</a></li>
+
+                        <li><a href="{{ route('formationorg') }}" class="nav-link">Formation entreprise</a></li>
+                        <li><a href="{{ route('formationcontinue') }}" class="nav-link">Formation continue</a></li>
                         <li><a href="{{ route('events') }}" class="nav-link">Agenda et événement</a></li>
+                        <li><a href="{{ route('blog') }}" class="nav-link">Actualité</a></li>
                     </ul>
                 </div>
             </div>
@@ -104,15 +107,17 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-xl-2 col-md-3 col-12">
+            <div class="col-xl-4 col-md-6 col-12">
                 <div class="d-flex flex-column gap-5">
                     <div class="d-flex flex-column gap-3">
                         <span class="text-white-stable">Contact</span>
                         <ul class="list-unstyled mb-0 d-flex flex-column nav nav-footer nav-x-0">
-                            <li>Email:<a href="mailto:contact@bemexecutive.education" class="fw-semibold">contact@bemexecutive.education</a></li>
-                            <li>Bureau d'Abidjan & de Douala: <a href="tel:+2250769816200" class="fw-semibold">(+225) 07 69 81 62 00</a></li>
-                            <li>Bureau de Dakar:<a href="tel:+221786082397" class="fw-semibold">(+221) 78 608 23 97</a></li>
+                            <li>Email:<a href="mailto:contact@bemexecutive.education" class="fw-semibold text-light"> contact@bemexecutive.education</a></li>
+                            <li>Bureau d'Abidjan & de Douala: <a href="tel:+2250769816200" class="fw-semibold text-light">(+225) 07 69 81 62 00</a></li>
+                            <li>Bureau de Dakar:<a href="tel:+221786082397" class="fw-semibold text-light">(+221) 78 608 23 97</a></li>
                             <li>Bureau de Paris: 
+                           <a href="mailto:astou.cisse@bem.ci" class="fw-semibold text-light"> astou.cisse@bem.ci</a>
+
                                 
                             </li>
                         </ul>

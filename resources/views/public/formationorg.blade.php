@@ -66,7 +66,7 @@
             <div class="container mt-lg-6">
                 <div class="row mb-6 justify-content-center">
                     <div class="col-lg-12 col-md-12 col-12 text-left">
-                        <span class="text-primary mb-0 d-block text-uppercase fw-semibold ls-xl">Tous nos partenaires academique</span>
+                        <span class="text-primary mb-0 d-block text-uppercase fw-semibold ls-xl">Nos partenaires academique</span>
                     </div>
                 </div>
                 <div class="table-responsive-lg">

@@ -173,64 +173,70 @@
 <div class="container mt-5">
     <h5 class="card-title text-center"><span class="text-primary">Presentation</span></h5>
     <h2 class="card-title display-3 text-center">BEM Executive Education</h2><br>
-    <div class="card">
-        <div class="row no-gutters">
-            <!-- Colonne avec image -->
-            <div class="col-md-6">
-                <img src="../../assets/1554450685082.jpeg" class="card-img w-100" style="  background-size: cover;"
-                    alt="Image">
+    <div class="">
+            <div class="row no-gutters">
+                <!-- Colonne avec image -->
+                <div class="col-md-6">
+                 
+                   
+                    
 
-            </div>
-            <!-- Colonne avec texte -->
-            <div class="col-md-6">
-                <div class="card-body">
+                    <img src="../../assets/DSC00050.png" class="card-img w-100 rounded" style="  background-size: cover;height:90%"
+                        alt="Image">
 
-                    <ul class="list-unstyled mb-5" style="font-size:14PX">
-                        <li class="mb-2">
+                </div>
+                <!-- Colonne avec texte -->
+                <div class="col-md-6">
+                    <div class="card-body">
+                      
+                        <ul class="list-unstyled " style="font-size:14PX">
+                            <br>
+                            <li class="mb-2">
 
-                            <span class="ms-2">
-                                <h3>Mot du DG de BEM Executive Education </h3>
+                                <span class="ms-2">
+                                    <h3>Mot du DG de BEM Executive Education </h3>
 
-                                <big>"</big>Dès sa création <span class="text-primary"> BEM Management School</span>
-                                s’est consacrée à la formation de managers africains responsables et immédiatement
-                                opérationnels. BEM Management School est un établissement d’enseignement supérieur privé
-                                général. Il a pour vocation de former et d’accompagner des managers africains
-                                responsables et opérationnels immédiatement. Il entend ainsi apporter une contribution
-                                décisive à l’émergence et à la consolidation d’une conscience africaine forte et ouverte
-                                sur le progrès, audacieuse, ambitieuse et responsable.
-                            </span>
-                        </li>
-                        <li class="mb-2">
+                                    <big>"</big>Dès sa création  BEM Management School
+                                    s’est consacrée à la formation de managers africains responsables et immédiatement
+                                    opérationnels. BEM Management School est un établissement d’enseignement supérieur
+                                    privé général. Il a pour vocation de former et d’accompagner des managers africains
+                                    responsables et opérationnels immédiatement. Il entend ainsi apporter une
+                                    contribution décisive à l’émergence et à la consolidation d’une conscience africaine
+                                    forte et ouverte sur le progrès, audacieuse, ambitieuse et responsable.
+                                </span>
+                            </li><br>
+                            <li class="mb-2">
 
-                            <span class="ms-2">Avec le même objectif de montée en compétences et la même exigence
-                                d’excellence, BEM Executive Education souhaite accompagner aujourd’hui vos
-                                collaborateurs tout au long de leur carrière afin de leur permettre de progresser et de
-                                contribuer de manière croissante au développement, à la stratégie de votre organisation.
-                                En s’appuyant sur un panel de consultants internationaux expérimentés, BEM Executive
-                                Education intervient notamment dans les domaines de l’efficacité managériale, de la
-                                communication maîtrisée, du développement personnel et de la gouvernance. Grâce à ses
-                                séminaires et ses programmes certifiants, BEM Executive Education accompagne vos
-                                collaborateurs et les installe dans une culture de performance et de
-                                responsabilité.</span>
-                        </li>
-                        <li class="mb-2">
+                                <span class="ms-2">Avec le même objectif de montée en compétences et la même exigence
+                                    d’excellence,<span class="text-primary"> BEM Executive Education</span> souhaite accompagner aujourd’hui vos
+                                    collaborateurs tout au long de leur carrière afin de leur permettre de progresser et
+                                    de contribuer de manière croissante au développement, à la stratégie de votre
+                                    organisation. En s’appuyant sur un panel de consultants internationaux expérimentés,
+                                    BEM Executive Education intervient notamment dans les domaines de l’efficacité
+                                    managériale, de la communication maîtrisée, du développement personnel et de la
+                                    gouvernance. Grâce à ses séminaires et ses programmes certifiants, BEM Executive
+                                    Education accompagne vos collaborateurs et les installe dans une culture de
+                                    performance et de responsabilité.</span>
+                            </li><br>
+                            <li class="mb-2">
+                                Notre philosophie réside cependant dans notre capacité à proposer des programmes sur
+                                mesure, construits sur la base des besoins spécifiques de chaque organisation. Notre
+                                méthodologie place le client au cœur du processus de définition, de validation et
+                                d’évaluation du parcours de formation. En complément du transfert de connaissances et de
+                                compétences, BEM Executive Education s’attache à communiquer à vos collaborateurs des
+                                valeurs éthiques et comportementales indispensables à la formation de collaborateurs
+                                responsables.
+                                Nos formations sont disponibles partout en Afrique, quel que soit le pays.
+                                <span class="ms-2"><big>"</big></span>
 
-                            <span class="ms-2">Notre philosophie réside cependant dans notre capacité à proposer des
-                                programmes sur mesure, construits sur la base des besoins spécifiques de chaque
-                                organisation. Notre méthodologie place le client au cœur du processus de définition, de
-                                validation et d’évaluation du parcours de formation. En complément du transfert de
-                                connaissances et de compétences, BEM Executive Education s’attache à communiquer à vos
-                                collaborateurs des valeurs éthiques et comportementales indispensables à la formation de
-                                collaborateurs responsables.<big>"</big></span><br><br>
 
+                            </li>
 
-                        </li>
-
-                    </ul>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 </div> <br>
 </section>
 

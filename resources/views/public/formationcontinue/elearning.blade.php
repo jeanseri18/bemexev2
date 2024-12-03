@@ -135,7 +135,7 @@
                         <div class="row mb-6 justify-content-center">
                             <div class="col-lg-12 col-md-12 col-12 text-left">
                                 <span
-                                    class="text-primary mb-0 d-block text-uppercase fw-semibold ls-xl">Partenaires</span>
+                                    class="text-primary mb-0 d-block text-uppercase fw-semibold ls-xl">Nos partenaires</span>
                             </div>
                         </div>
                         <div class="table-responsive-lg">

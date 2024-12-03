@@ -98,8 +98,8 @@
                     <div class="col-lg-5 col-md-12 col-12">
                         <div class="mb-5 mb-lg-0">
                             <h2 class="display-4 fw-bold mb-3 text-white">
-                                Formation
-                                <u class="text-warning"><span class="text-white"> certifiante</span></u>
+                                Formations
+                                <u class="text-warning"><span class="text-white"> certifiantes</span></u>
                             </h2>
                             <p class="mb-5 lead">
 
@@ -144,8 +144,7 @@
                 <div class="container mt-lg-6">
                     <div class="row mb-6 justify-content-center">
                         <div class="col-lg-12 col-md-12 col-12 text-left">
-                            <span class="text-primary mb-0 d-block text-uppercase fw-semibold ls-xl">Tous nos
-                                partenaires academique</span>
+                            <span class="text-primary mb-0 d-block text-uppercase fw-semibold ls-xl">Nos partenaires académiques</span>
                         </div>
                     </div>
                     <div class="table-responsive-lg">
@@ -180,16 +179,16 @@
     <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
         <!-- Card -->
         <div class="card card-hover card-custom ">
-            <a href="{{ asset('pdf/Gestion Projet (3).pdf') }}">
+            <a href="{{ asset('pdf/Gestion Projet.pdf') }}">
                 <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.14.40.png" alt="course" class="card-img-top">
             </a>
             <!-- Card Body -->
             <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="{{ asset('pdf/Gestion Projet (3).pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
+                    <a href="{{ asset('pdf/Gestion Projet.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
                 </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/Gestion Projet (3).pdf') }}" class="text-inherit">Gestion de Projet</a></h4>
+                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/Gestion Projet.pdf') }}" class="text-inherit">Gestion de Projet</a></h4>
                 <!-- List -->
                 <small>Ce programme enseigne les méthodologies modernes de gestion de projet pour garantir la livraison efficace des projets dans les délais et budgets impartis.</small>
                
@@ -198,84 +197,23 @@
         </div><br>
     </div>
 
-    <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
-        <!-- Card -->
-        <div class="card card-hover card-custom  ">
-            <a href="{{ asset('pdf/FICHE INNONVATION & CREATIVE 1.pdf') }}">
-                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.14.30.png" alt="course" class="card-img-top">
-            </a>
-            <!-- Card Body -->
-            <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                    <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="{{ asset('pdf/FICHE INNONVATION & CREATIVE 1.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
-                </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/FICHE INNONVATION & CREATIVE 1.pdf') }}" class="text-inherit">Certificat Innovation et Créativité</a></h4>
-                <!-- List -->
-                <small>Programme dédié à la stimulation de la créativité et à l'innovation dans les entreprises, favorisant le développement de solutions novatrices.</small>
-               
-            </div>
-            <!-- Card Footer -->
-        </div><br>
-    </div>
+ 
 
     <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
         <!-- Card -->
         <div class="card card-hover card-custom ">
-            <a href="{{ asset('pdf/FICHE BUSINESS D & MARKETING 1.pdf') }}">
-                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.13.08.png" alt="course" class="card-img-top">
-            </a>
-            <!-- Card Body -->
-            <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                    <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="{{ asset('pdf/FICHE BUSINESS D & MARKETING 1.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
-                </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/FICHE BUSINESS D & MARKETING 1.pdf') }}" class="text-inherit">Certificat Business Développement et Marketing</a></h4>
-                <!-- List -->
-                <small>Ce programme fournit les outils nécessaires pour élaborer des stratégies de marketing efficaces et développer les affaires de manière durable.</small>
-               
-            </div>
-            <!-- Card Footer -->
-        </div><br>
-    </div>
-
-    <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
-        <!-- Card -->
-        <div class="card card-hover card-custom ">
-            <a href="{{ asset('pdf/FICHE CAPITAL HUMAIN 1.pdf') }}">
-                <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.14.49.png" alt="course" class="card-img-top">
-            </a>
-            <!-- Card Body -->
-            <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                    <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="{{ asset('pdf/FICHE CAPITAL HUMAIN 1.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
-                </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/FICHE CAPITAL HUMAIN 1.pdf') }}" class="text-inherit">Certificat Capital Humain</a></h4>
-                <!-- List -->
-                <small>Formation axée sur la gestion des ressources humaines et le développement des talents au sein des organisations.</small>
-               
-            </div>
-            <!-- Card Footer -->
-        </div><br>
-    </div>
-
-    <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
-        <!-- Card -->
-        <div class="card card-hover card-custom ">
-            <a href="{{ asset('pdf/FICHE COM RELATION P 1.pdf') }}">
+            <a href="{{ asset('pdf/CERTIFICAT ADM DE BANQUE RABAT 2025.pdf') }}">
                 <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.13.27.png" alt="course" class="card-img-top">
             </a>
             <!-- Card Body -->
             <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="{{ asset('pdf/FICHE COM RELATION P 1.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
+                    <a href="{{ asset('pdf/CERTIFICAT ADM DE BANQUE RABAT 2025.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
                 </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/FICHE COM RELATION P 1.pdf') }}" class="text-inherit">Certificat Communication Et Relation Publique</a></h4>
+                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/CERTIFICAT ADM DE BANQUE RABAT 2025.pdf') }}" class="text-inherit">Certificat administration de banque </a></h4>
                 <!-- List -->
-                <small>Ce programme aborde les principes de la communication et des relations publiques pour améliorer l'image de marque et la communication des entreprises.</small>
+                <small>Ce programme forme les participants aux meilleures pratiques en matière de gestion financière, conformité réglementaire et prise de décision stratégique dans le secteur bancaire. </small>
                 
             </div>
             <!-- Card Footer -->
@@ -285,16 +223,16 @@
     <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
         <!-- Card -->
         <div class="card card-hover card-custom ">
-            <a href="{{ asset('pdf/Supply_Chain_Management_Syllabus (2) 1.pdf') }}">
+            <a href="{{ asset('pdf/Supply Chain.pdf') }}">
                 <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.13.37.png" alt="course" class="card-img-top">
             </a>
             <!-- Card Body -->
             <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="{{ asset('pdf/Supply_Chain_Management_Syllabus (2) 1.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
+                    <a href="{{ asset('pdf/Supply Chain.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
                 </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/Supply_Chain_Management_Syllabus (2) 1.pdff') }}" class="text-inherit">Certificat en Supply Chain</a></h4>
+                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/Supply Chain.pdf') }}" class="text-inherit">Certificat en Supply Chain</a></h4>
                 <!-- List -->
                 <small>Programme axé sur la gestion efficace de la chaîne d'approvisionnement, abordant la logistique, l'approvisionnement et la gestion des stocks.</small>
                
@@ -302,40 +240,7 @@
             <!-- Card Footer -->
         </div><br>
     </div>
-    <div class="col-xl-4 col-md-4 col-12"> </div>
-    <div class="col-xl-4 col-md-4 col-12">
-                        <div class="  h-100 text-center text-lg-start  text-white">
-                            <div class=" h-100 text-center text-lg-start  text-white ">
-                                <div class="p-2">
-                                    <div class="card card-hover">
-                                        <a href="#">
-                                            <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.13.08.png"
-                                                alt="course" class="card-img-top">
-                                        </a>
-                                        <!-- Card Body -->
-                                        <div class="card-body">
-
-                                            <h4 class="mb-2 text-truncate-line-2"><a href="#"
-                                                    class="text-inherit">Administrateurs de societé</a></h4>
-                                            <!-- List -->
-                                            <small>Ce programme aborde les compétences essentielles en gestion d'entreprise, leadership et stratégies de croissance. Les participants acquerront des outils pour optimiser la performance organisationnelle et gérer efficacement les ressources humaines et financières.</small>
-
-                                            <br>
-                                            <br>
-
-                                        </div>
-                                        <!-- Card Footer -->
-                                    </div><br>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>    <div class="col-xl-4 col-md-4 col-12"> </div>
-
-</div>
-
-
-
+   
 
 
 </section>

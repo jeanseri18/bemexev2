@@ -38,7 +38,8 @@
                 <div class="card">
                     <div class="card-body">
                         <h3 class="h4">Bureau de Paris</h3>
-                        <p class="text-gray-500">Contact : <a href="mailto:contact@bemexecutive.education">contact@bemexecutive.education</a></p>
+                        <p class="text-gray-500">Email :                           <a href="mailto:astou.cisse@bem.ci" class="fw-semibold"> astou.cisse@bem.ci</a>
+                        </p>
                        <br><br>
                        <br>
                        <br>

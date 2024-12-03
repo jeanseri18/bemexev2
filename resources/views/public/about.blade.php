@@ -12,9 +12,11 @@
             <div class="row no-gutters">
                 <!-- Colonne avec image -->
                 <div class="col-md-6">
-                    <br>
+                 
+                   
+                    
 
-                    <img src="../../assets/1554450685082.jpeg" class="card-img w-100" style="  background-size: cover;"
+                    <img src="../../assets/DSC00050.png" class="card-img w-100 rounded" style="  background-size: cover;height:100%"
                         alt="Image">
 
                 </div>
@@ -26,10 +28,10 @@
                         <ul class="list-unstyled " style="font-size:14PX">
                             <li class="mb-2">
 
-                                <span class="ms-2">
+                                <span class="ms-0">
                                     <h3>Mot du DG de BEM Executive Education </h3>
 
-                                    <big>"</big>Dès sa création <span class="text-primary"> BEM Management School</span>
+                                    <big>"</big>Dès sa création BEM Management School
                                     s’est consacrée à la formation de managers africains responsables et immédiatement
                                     opérationnels. BEM Management School est un établissement d’enseignement supérieur
                                     privé général. Il a pour vocation de former et d’accompagner des managers africains
@@ -41,7 +43,7 @@
                             <li class="mb-2">
 
                                 <span class="ms-2">Avec le même objectif de montée en compétences et la même exigence
-                                    d’excellence, BEM Executive Education souhaite accompagner aujourd’hui vos
+                                    d’excellence,<span class="text-primary"> BEM Executive Education</span> souhaite accompagner aujourd’hui vos
                                     collaborateurs tout au long de leur carrière afin de leur permettre de progresser et
                                     de contribuer de manière croissante au développement, à la stratégie de votre
                                     organisation. En s’appuyant sur un panel de consultants internationaux expérimentés,
@@ -60,7 +62,7 @@
                                 valeurs éthiques et comportementales indispensables à la formation de collaborateurs
                                 responsables.
                                 Nos formations sont disponibles partout en Afrique, quel que soit le pays.
-                                <span class="ms-2"><big>"</big></span><br><br>
+                                <span class="ms-2"><big>"</big></span>
 
 
                             </li>

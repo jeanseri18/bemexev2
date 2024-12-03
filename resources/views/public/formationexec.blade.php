@@ -36,65 +36,8 @@
             </div>
 
             <div class="col-xl-12  col-md-12 col-12">
-                <h2> Gouvernance :</h2><br>
-                <div class="row gy-4 gy-xl-0">
-                    <div class="col-xl-6 col-md-6 col-12 " style="height:200px">
-                        <div class=" h-100 text-center text-lg-start  text-white ">
-                            <div class="p-2">
-                                <div class="card card-hover">
-                                    <a href="{{ asset('pdf/FICHE BUSINESS D & MARKETING 1.pdf') }}">
-                                        <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.13.27.png"
-                                            alt="course" class="card-img-top">
-                                    </a>
-                                    <!-- Card Body -->
-                                    <div class="card-body">
-
-                                        <h4 class="mb-2 text-truncate-line-2"><a
-                                                href="{{ asset('pdf/BEM  ESSEC Executive Education -Détail des Modules  Administrateurs Banques (1) 1.pdf') }}"
-                                                class="text-inherit">Administrateurs de Banques</a></h4>
-                                        <!-- List -->
-                                        <small>Ce programme forme les participants aux meilleures pratiques en matière de gestion financière, conformité réglementaire et prise de décision stratégique dans le secteur bancaire. Les participants apprendront à naviguer dans les défis du marché tout en assurant une rentabilité durable.</small>
-
-                                        <br>
-                                        <br>
-
-                                    </div>
-                                    <!-- Card Footer -->
-                                </div><br>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-6 col-md-6 col-12">
-                        <div class="  h-100 text-center text-lg-start  text-white">
-                            <div class=" h-100 text-center text-lg-start  text-white ">
-                                <div class="p-2">
-                                    <div class="card card-hover">
-                                        <a href="#">
-                                            <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.13.08.png"
-                                                alt="course" class="card-img-top">
-                                        </a>
-                                        <!-- Card Body -->
-                                        <div class="card-body">
-
-                                            <h4 class="mb-2 text-truncate-line-2"><a href="#"
-                                                    class="text-inherit">Administrateurs de societé</a></h4>
-                                            <!-- List -->
-                                            <small>Ce programme aborde les compétences essentielles en gestion d'entreprise, leadership et stratégies de croissance. Les participants acquerront des outils pour optimiser la performance organisationnelle et gérer efficacement les ressources humaines et financières.</small>
-
-                                            <br>
-                                            <br>
-
-                                        </div>
-                                        <!-- Card Footer -->
-                                    </div><br>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <a class="btn btn-primary" href="{{ asset('pdf/BEM Executive Education.pdf') }}" target="blank"> Decouvrez nos programmmes de formations </a><br>
+            
             </div>
             <!-- Section Partenaires -->
             <div class="col-xl-12 col-md-12 col-12">
@@ -102,8 +45,8 @@
                     <div class="container mt-lg-6">
                         <div class="row mb-6 justify-content-center">
                             <div class="col-lg-12 col-md-12 col-12 text-left">
-                                <span class="text-primary mb-0 d-block text-uppercase fw-semibold ls-xl">Tous
-                                    nos
+                                <span class="text-primary mb-0 d-block text-uppercase fw-semibold ls-xl">
+                                    Nos
                                     partenaires academique</span>
                             </div>
                         </div>
