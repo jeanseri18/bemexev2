@@ -42,7 +42,44 @@
                     <div class="tns-inner" id="webinarCarousel-iw">
                         <div class="sliderFirst tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" id="webinarCarousel"
                             style="transform: translate3d(-50%, 0px, 0px);">
-                            
+                            <div class="item tns-item container" aria-hidden="true" tabindex="-1">
+                                <!-- Card -->
+                                <div class="card shadow-lg card-lift">
+                                    <a href="{{ route('seminairerabat') }}">
+                                    
+                                        <img src="pdf/Admin_Banques.jpg" class="card-img-top"
+                                            alt="Image par défaut">
+                                    </a>
+                                    <!-- Card body -->
+                                    <div class="card-body">
+                                        
+                        <h3 class="mb-4 text-truncate">
+                            <a href="#!" class="text-inherit">CERTIFICAT EXECUTIF | ADMINISTRATEUR DE BANQUES</a>
+                        </h3>
+                        <div class="mb-4">
+                            <div class="mb-3 lh-1">
+                                <span class="me-1">
+                                    <i class="bi bi-calendar-check"></i>
+                                </span>
+                                <span>du 17 au 22 Février 2025</span>
+                            </div>
+                            <div class="lh-1">
+                                <span class="align-text-top me-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+                                        class="bi bi-clock" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z">
+                                        </path>
+                                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <span></span>
+                            </div>
+                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             @foreach($webinars as $webinar)
                             <div class="item tns-item container" aria-hidden="true" tabindex="-1">
                                 <!-- Card -->

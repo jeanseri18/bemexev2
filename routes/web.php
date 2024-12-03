@@ -53,7 +53,7 @@ Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::get('/inscription-certification-adm-banque', function () {
     return view('public.formationlandingpage');
-});
+})->name('seminairerabat');
 Route::get('/', [PublicController::class, 'welcome'])->name('welcome');
 Route::get('/about', [PublicController::class, 'about'])->name('about');
 Route::get('/formation', [PublicController::class, 'formation'])->name('formation');
