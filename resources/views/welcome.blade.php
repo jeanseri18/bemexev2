@@ -622,22 +622,22 @@
 <script>document.addEventListener('DOMContentLoaded', function() {
     var slider = tns({
         container: '#eventCarousel',
-        items: 3,
+        items: 2,
         slideBy: 'page',
         autoplay: false,
         nav: false,
         autoplayButtonOutput: false,
         controlsContainer: '#eventCarouselControls',
-        loop: false,  // Désactive la boucle pour ne pas faire défiler en continu
+        loop: true,  // Désactive la boucle pour ne pas faire défiler en continu
         responsive: {
             640: {
                 items: 2,
             },
             768: {
-                items: 3,
+                items: 2,
             },
             1024: {
-                items: 3,
+                items: 2,
             }
         }
     });
