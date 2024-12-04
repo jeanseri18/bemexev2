@@ -486,7 +486,6 @@
         </div>
     </div>
 
-    <section>
         <div class="position-relative">
             <ul class="controls" id="eventCarouselControls" aria-label="Carousel Navigation" tabindex="0">
                 <li class="prev" aria-controls="eventCarousel" tabindex="-1" data-controls="prev">
@@ -531,7 +530,8 @@
                             </div>
                             @foreach($events as $event)
                             <div class="item tns-item container" aria-hidden="true" tabindex="-1">
-                                <div class="card mb-4 mb-xl-0 card-hover border">
+                                <!-- Card -->
+                                <div class="card shadow-lg card-lift">
                                     <a href="{{ route('event.show', $event->id) }}">
                                         @if($event->image)
                                         <img src="{{ Storage::url($event->image) }}" alt="{{ $event->titre }}"
@@ -541,7 +541,9 @@
                                             alt="Image par défaut">
                                         @endif
                                     </a>
+                                    <!-- Card body -->
                                     <div class="card-body">
+
                                         <h3 class="mb-4 text-truncate">
                                             <a href="#!" class="text-inherit">{{ $event->titre }}</a>
                                         </h3>
@@ -556,9 +558,6 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <!-- Card -->
-
                             </div>
                             @endforeach
 
@@ -567,8 +566,6 @@
                 </div>
             </div>
         </div>
-
-    </section>
 
 
 
@@ -596,15 +593,16 @@
                                     style="max-height: 100%; max-width: 100%; object-fit: contain;"></span></a>
                         @foreach($partenaires as $partenaire)
                         <a href="#" class="btn btn-white rounded-pill me-1 mb-3 btn-logo btn-lift shadow">
-                        <span
-                        style="width: auto; height: 80px; display: flex; align-items: center; justify-content: center; padding: 10px;">
-                            @if($partenaire->image)
-                            <img src="{{ Storage::url($partenaire->image) }}" alt="{{ $partenaire->titre }}"
-                                class="partner-logo" style="max-height: 100%; max-width: 100%; object-fit: contain;">
-                            @else
-                            <img src="../assets/images/default-placeholder.jpg" class="partner-logo"
-                                alt="Image par défaut">
-                            @endif
+                            <span
+                                style="width: auto; height: 80px; display: flex; align-items: center; justify-content: center; padding: 10px;">
+                                @if($partenaire->image)
+                                <img src="{{ Storage::url($partenaire->image) }}" alt="{{ $partenaire->titre }}"
+                                    class="partner-logo"
+                                    style="max-height: 100%; max-width: 100%; object-fit: contain;">
+                                @else
+                                <img src="../assets/images/default-placeholder.jpg" class="partner-logo"
+                                    alt="Image par défaut">
+                                @endif
                             </span>
                             <!--span class="ms-1 d-none d-lg-inline-flex">{{ $partenaire->titre }}</span-->
                         </a>
