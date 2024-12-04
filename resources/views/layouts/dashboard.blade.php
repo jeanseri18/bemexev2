@@ -6,7 +6,7 @@
     <meta name="author" content="Codescandy">
 
     <!-- Favicon icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/Logo-BEM-Executive 1.png') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon/Logo-BEM-Executive.ico') }}">
     <link href="{{ asset('assets/libs/dropzone/dist/dropzone.css') }}" rel="stylesheet">
     <!-- darkmode js -->
     <script src="{{ asset('assets/js/vendors/darkMode.js') }}" defer></script>
