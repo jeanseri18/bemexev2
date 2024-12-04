@@ -611,8 +611,6 @@
 </section>
 
 <!-- Inclure le CSS de Tiny Slider -->
-
-<!-- Inclure le CSS de Tiny Slider -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
 
 <!-- Inclure le JS de Tiny Slider -->
@@ -621,7 +619,7 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     tns({
-        container: '#my-slider',
+        container: '#webinarCarousel',
         responsive: {
             640: {
                 items: 2,
@@ -637,7 +635,7 @@ document.addEventListener('DOMContentLoaded', function() {
         nav: false,
         autoplayButtonOutput: false,
 
-        controlsContainer: '#my-sliderControls',
+        controlsContainer: '#webinarCarouselControls',
     });
 
     tns({
@@ -661,6 +659,4 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
-
-
 @endsection

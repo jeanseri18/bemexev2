@@ -16,7 +16,6 @@ class PublicController extends Controller
         ->where('statut', 'active')
         ->distinct()
         ->get();
-        dd($events);
 
     $orderedTypes = [
     'CIE',
