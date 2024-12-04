@@ -176,7 +176,7 @@
     <div class="">
             <div class="row no-gutters">
                 <!-- Colonne avec image -->
-                <div class="col-md-6">
+                <div class="col-md-5">
                  
                    
                     
@@ -186,7 +186,7 @@
 
                 </div>
                 <!-- Colonne avec texte -->
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <div class="card-body">
                       
                         <ul class="list-unstyled " style="font-size:14PX">
