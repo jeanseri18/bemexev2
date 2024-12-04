@@ -486,94 +486,85 @@
         </div>
     </div>
 
-    
-<!-- Section des Événements -->
-<section class="pb-8">
-    <div class="container">
+    <div class="position-relative">
+        <ul class="controls" id="eventCarouselControls" aria-label="Carousel Navigation" tabindex="0">
+            <li class="prev" aria-controls="eventCarousel" tabindex="-1" data-controls="prev">
+                <i class="fe fe-chevron-left"></i>
+            </li>
+            <li class="next" aria-controls="eventCarousel" tabindex="-1" data-controls="next">
+                <i class="fe fe-chevron-right"></i>
+            </li>
+        </ul>
+        <div class="tns-outer" id="eventCarousel-ow">
+            <div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span
+                    class="current">1 to {{ count($events) }}</span> of {{ count($events) }}</div>
+            <div id="eventCarousel-mw" class="tns-ovh">
+                <div class="tns-inner" id="eventCarousel-iw">
+                    <div class="sliderFirst tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal"
+                        id="eventCarousel" style="transform: translate3d(-50%, 0px, 0px);">
+                        <div class="item tns-item container" aria-hidden="true" tabindex="-1" >
+                            <!-- Card -->
+                            <div class="card shadow-lg card-lift">
+                                <a href="{{ route('seminairerabat') }}">
 
-        <div class="position-relative">
-            <ul class="controls" id="eventCarouselControls" aria-label="Carousel Navigation" tabindex="0">
-                <li class="prev" aria-controls="eventCarousel" tabindex="-1" data-controls="prev">
-                    <i class="fe fe-chevron-left"></i>
-                </li>
-                <li class="next" aria-controls="eventCarousel" tabindex="-1" data-controls="next">
-                    <i class="fe fe-chevron-right"></i>
-                </li>
-            </ul>
-            <div class="tns-outer" id="eventCarousel-ow">
-                <div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span
-                        class="current">1 to {{ count($events) }}</span> of {{ count($events) }}</div>
-                <div id="eventCarousel-mw" class="tns-ovh">
-                    <div class="tns-inner" id="eventCarousel-iw">
-                        <div class="sliderFirst tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal"
-                            id="eventCarousel" style="transform: translate3d(-50%, 0px, 0px);">
-                            <div class="item tns-item container" aria-hidden="true" tabindex="-1">
-                                <!-- Card -->
-                                <div class="card shadow-lg card-lift">
-                                    <a href="{{ route('seminairerabat') }}">
+                                    <img src="pdf/Admin_Banques.jpg" class="card-img-top" alt="Image par défaut">
+                                </a>
+                                <!-- Card body -->
+                                <div class="card-body">
 
-                                        <img src="pdf/Admin_Banques.jpg" class="card-img-top" alt="Image par défaut">
-                                    </a>
-                                    <!-- Card body -->
-                                    <div class="card-body">
-
-                                        <h3 class="mb-4 text-truncate">
-                                            <a href="#!" class="text-inherit">CERTIFICAT EXECUTIF | ADMINISTRATEUR DE
-                                                BANQUES</a>
-                                        </h3>
-                                        <div class="mb-4">
-                                            <div class="mb-3 lh-1">
-                                                <span class="me-1">
-                                                    <i class="bi bi-calendar-check"></i>
-                                                </span>
-                                                <span>du 17 au 22 Février 2025</span>
-                                            </div>
-                                            
+                                    <h3 class="mb-4 text-truncate">
+                                        <a href="#!" class="text-inherit">CERTIFICAT EXECUTIF | ADMINISTRATEUR DE
+                                            BANQUES</a>
+                                    </h3>
+                                    <div class="mb-4">
+                                        <div class="mb-3 lh-1">
+                                            <span class="me-1">
+                                                <i class="bi bi-calendar-check"></i>
+                                            </span>
+                                            <span>du 17 au 22 Février 2025</span>
                                         </div>
+
                                     </div>
                                 </div>
                             </div>
-                            @foreach($events as $event)
-                            <div class="item tns-item container" aria-hidden="true" tabindex="-1">
-                                <!-- Card -->
-                                <div class="card shadow-lg card-lift">
-                                    <a href="{{ route('event.show', $event->id) }}">
-                                        @if($event->image)
-                                        <img src="{{ Storage::url($event->image) }}" alt="{{ $event->titre }}"
-                                            class="card-img-top">
-                                        @else
-                                        <img src="../assets/images/default-placeholder.jpg" class="card-img-top"
-                                            alt="Image par défaut">
-                                        @endif
-                                    </a>
-                                    <!-- Card body -->
-                                    <div class="card-body">
-
-                                        <h3 class="mb-4 text-truncate">
-                                            <a href="#!" class="text-inherit">{{ $event->titre }}</a>
-                                        </h3>
-                                        <div class="mb-4">
-                                            <div class="mb-3 lh-1">
-                                                <span class="me-1">
-                                                    <i class="bi bi-calendar-check"></i>
-                                                </span>
-                                                <span>{{ $event->date }} </span>
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            @endforeach
-
                         </div>
+                        @foreach($events as $event)
+                        <div class="item tns-item container" data-id="{{ $event->id }}" aria-hidden="true"
+                            tabindex="-1">
+                            <!-- Card -->
+                            <div class="card shadow-lg card-lift">
+                                <a href="{{ route('event.show', $event->id) }}">
+                                    @if($event->image)
+                                    <img src="{{ Storage::url($event->image) }}" alt="{{ $event->titre }}"
+                                        class="card-img-top">
+                                    @else
+                                    <img src="../assets/images/default-placeholder.jpg" class="card-img-top"
+                                        alt="Image par défaut">
+                                    @endif
+                                </a>
+                                <!-- Card body -->
+                                <div class="card-body">
+                                    <h3 class="mb-4 text-truncate">
+                                        <a href="#!" class="text-inherit">{{ $event->titre }}</a>
+                                    </h3>
+                                    <div class="mb-4">
+                                        <div class="mb-3 lh-1">
+                                            <span class="me-1">
+                                                <i class="bi bi-calendar-check"></i>
+                                            </span>
+                                            <span>{{ $event->date }}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        @endforeach
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
-</div>
 
 
 
@@ -628,48 +619,35 @@
 <!-- Inclure le JS de Tiny Slider -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/min/tiny-slider.js"></script>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    tns({
-        container: '#webinarCarousel',
-        responsive: {
-            640: {
-                items: 2,
-            },
-
-            768: {
-                items: 3,
-            }
-        },
-
+<script>document.addEventListener('DOMContentLoaded', function() {
+    var slider = tns({
+        container: '#eventCarousel',
+        items: 3,
         slideBy: 'page',
         autoplay: false,
         nav: false,
         autoplayButtonOutput: false,
-
-        controlsContainer: '#webinarCarouselControls',
+        controlsContainer: '#eventCarouselControls',
+        loop: false,  // Désactive la boucle pour ne pas faire défiler en continu
+        responsive: {
+            640: {
+                items: 2,
+            },
+            768: {
+                items: 3,
+            },
+            1024: {
+                items: 3,
+            }
+        }
     });
 
-    tns({
-        container: '#eventCarousel',
-        items:3
-        responsive: {
-            640: {
-                items: 2,
-            },
-
-            768: {
-                items: 3,
-            }
-            
-        },
-
-        slideBy: 'page',
-        autoplay: false,
-        nav: false,
-        autoplayButtonOutput: false,
-
-        controlsContainer: '#eventCarouselControls',
+    // Ajoutez un écouteur d'événements pour savoir quand le carrousel a atteint la fin
+    slider.events.on('indexChanged', function() {
+        // Si le dernier élément est atteint, revenez au premier élément
+        if (slider.getInfo().index === 0) {
+            slider.goTo(0); // Retourner au premier élément
+        }
     });
 });
 </script>
