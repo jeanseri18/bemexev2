@@ -529,37 +529,33 @@
                                 </div>
                             </div>
                             @foreach($events as $event)
-                            <div class="item tns-item container" aria-hidden="true" tabindex="-1">
-                                <!-- Card -->
-                                <div class="card shadow-lg card-lift">
-                                    <a href="{{ route('event.show', $event->id) }}">
-                                        @if($event->image)
-                                        <img src="{{ Storage::url($event->image) }}" alt="{{ $event->titre }}"
-                                            class="card-img-top">
-                                        @else
-                                        <img src="../assets/images/default-placeholder.jpg" class="card-img-top"
-                                            alt="Image par défaut">
-                                        @endif
-                                    </a>
-                                    <!-- Card body -->
-                                    <div class="card-body">
-
-                                        <h3 class="mb-4 text-truncate">
-                                            <a href="#!" class="text-inherit">{{ $event->titre }}</a>
-                                        </h3>
-                                        <div class="mb-4">
-                                            <div class="mb-3 lh-1">
-                                                <span class="me-1">
-                                                    <i class="bi bi-calendar-check"></i>
-                                                </span>
-                                                <span>{{ $event->date }} </span>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            @endforeach
+<div class="item tns-item container" data-id="{{ $event->id }}" aria-hidden="true" tabindex="-1">
+    <!-- Card -->
+    <div class="card shadow-lg card-lift">
+        <a href="{{ route('event.show', $event->id) }}">
+            @if($event->image)
+            <img src="{{ Storage::url($event->image) }}" alt="{{ $event->titre }}" class="card-img-top">
+            @else
+            <img src="../assets/images/default-placeholder.jpg" class="card-img-top" alt="Image par défaut">
+            @endif
+        </a>
+        <!-- Card body -->
+        <div class="card-body">
+            <h3 class="mb-4 text-truncate">
+                <a href="#!" class="text-inherit">{{ $event->titre }}</a>
+            </h3>
+            <div class="mb-4">
+                <div class="mb-3 lh-1">
+                    <span class="me-1">
+                        <i class="bi bi-calendar-check"></i>
+                    </span>
+                    <span>{{ $event->date }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endforeach
 
                         </div>
                     </div>

@@ -12,8 +12,12 @@ class PublicController extends Controller
     // Méthode pour afficher la page d'accueil
     public function welcome()
     {
-        $events = Blog::where('type', 'evenement')->where('statut', 'active')->get();
-$orderedTypes = [
+        $events = Blog::where('type', 'evenement')
+        ->where('statut', 'active')
+        ->distinct()
+        ->get();
+        
+    $orderedTypes = [
     'CIE',
     'SENELEC',
     'ecobank',
