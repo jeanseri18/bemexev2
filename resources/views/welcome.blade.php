@@ -486,6 +486,11 @@
         </div>
     </div>
 
+    
+<!-- Section des Événements -->
+<section class="pb-8">
+    <div class="container">
+
         <div class="position-relative">
             <ul class="controls" id="eventCarouselControls" aria-label="Carousel Navigation" tabindex="0">
                 <li class="prev" aria-controls="eventCarousel" tabindex="-1" data-controls="prev">
@@ -523,45 +528,52 @@
                                                 </span>
                                                 <span>du 17 au 22 Février 2025</span>
                                             </div>
-
+                                            
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             @foreach($events as $event)
-<div class="item tns-item container" data-id="{{ $event->id }}" aria-hidden="true" tabindex="-1">
-    <!-- Card -->
-    <div class="card shadow-lg card-lift">
-        <a href="{{ route('event.show', $event->id) }}">
-            @if($event->image)
-            <img src="{{ Storage::url($event->image) }}" alt="{{ $event->titre }}" class="card-img-top">
-            @else
-            <img src="../assets/images/default-placeholder.jpg" class="card-img-top" alt="Image par défaut">
-            @endif
-        </a>
-        <!-- Card body -->
-        <div class="card-body">
-            <h3 class="mb-4 text-truncate">
-                <a href="#!" class="text-inherit">{{ $event->titre }}</a>
-            </h3>
-            <div class="mb-4">
-                <div class="mb-3 lh-1">
-                    <span class="me-1">
-                        <i class="bi bi-calendar-check"></i>
-                    </span>
-                    <span>{{ $event->date }}</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-@endforeach
+                            <div class="item tns-item container" aria-hidden="true" tabindex="-1">
+                                <!-- Card -->
+                                <div class="card shadow-lg card-lift">
+                                    <a href="{{ route('event.show', $event->id) }}">
+                                        @if($event->image)
+                                        <img src="{{ Storage::url($event->image) }}" alt="{{ $event->titre }}"
+                                            class="card-img-top">
+                                        @else
+                                        <img src="../assets/images/default-placeholder.jpg" class="card-img-top"
+                                            alt="Image par défaut">
+                                        @endif
+                                    </a>
+                                    <!-- Card body -->
+                                    <div class="card-body">
+
+                                        <h3 class="mb-4 text-truncate">
+                                            <a href="#!" class="text-inherit">{{ $event->titre }}</a>
+                                        </h3>
+                                        <div class="mb-4">
+                                            <div class="mb-3 lh-1">
+                                                <span class="me-1">
+                                                    <i class="bi bi-calendar-check"></i>
+                                                </span>
+                                                <span>{{ $event->date }} </span>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            @endforeach
 
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</section>
+</div>
 
 
 
@@ -640,6 +652,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     tns({
         container: '#eventCarousel',
+        items:3
         responsive: {
             640: {
                 items: 2,
@@ -648,6 +661,7 @@ document.addEventListener('DOMContentLoaded', function() {
             768: {
                 items: 3,
             }
+            
         },
 
         slideBy: 'page',

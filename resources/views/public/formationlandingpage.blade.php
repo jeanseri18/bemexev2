@@ -104,15 +104,12 @@
 
                             Les responsabilités des membres de conseils d’administration de banques se renforcent de plus en plus en Afrique Sub Saharienne notamment eu égard au niveau de tolérance aux risques des établissements financiers.
                             </p>
-                            <a href="#!" class="btn btn-outline-white">Commencez</a>
                         </div>
                     </div>
                     <div class="col-lg-5 offset-lg-1 col-md-12 col-12">
                         <div class="d-flex justify-content-center align-items-center position-relative rounded border-gray-100 border border-4 rounded-3 bg-cover"
-                            style="background-image: url(pdf/Admin_Banques.jpg); height: 450px;">
-                            <a class="glightbox icon-shape rounded-circle btn-play icon-xl" href="#">
-                                <i class="fe fe-play"></i>
-                            </a>
+                            style="background-image: url(pdf/Admin_Banques.jpg); height:500px;">
+                           
                         </div>
                     </div>
                 </div>
