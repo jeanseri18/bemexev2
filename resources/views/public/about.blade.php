@@ -11,7 +11,7 @@
         <div class="card">
             <div class="row no-gutters">
                 <!-- Colonne avec image -->
-                <div class="col-md-6">
+                <div class="col-md-5">
                  
                    
                     
@@ -21,7 +21,7 @@
 
                 </div>
                 <!-- Colonne avec texte -->
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <div class="card-body">
                         <h5 class="card-title"><span class="text-primary">Presentation</span></h5>
                         <h2 class="card-title display-3">BEM Executive Education</h2>
@@ -164,6 +164,13 @@
                         <div class="marquee" data-cue="slideInLeft" data-show="true"
                             style="animation-name: slideInLeft; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
                             <div class="track">
+                            <a href="#" class="btn btn-white rounded-pill me-1 mb-3 btn-logo btn-lift shadow">
+                                    <span
+                                        style="width: auto; height: 80px; display: flex; align-items: center; justify-content: center; padding: 10px;">
+                                        <img src=" {{asset('pdf/Logo.png')}}" alt=""
+                                            class="partner-logo"
+                                            style="max-height: 100%; max-width: 100%; object-fit: contain;">
+</span></a>
                                 @foreach($ecoles as $partenaire)
                                 <a href="#" class="btn btn-white rounded-pill me-1 mb-3 btn-logo btn-lift shadow">
                                     <span
@@ -202,13 +209,7 @@
                         <div class="marquee" data-cue="slideInLeft" data-show="true"
                             style="animation-name: slideInLeft; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
                             <div class="track">
-                            <a href="#" class="btn btn-white rounded-pill me-1 mb-3 btn-logo btn-lift shadow">
-                                    <span
-                                        style="width: auto; height: 80px; display: flex; align-items: center; justify-content: center; padding: 10px;">
-                                        <img src=" {{asset('pdf/Logo.png')}}" alt=""
-                                            class="partner-logo"
-                                            style="max-height: 100%; max-width: 100%; object-fit: contain;">
-</span></a>
+              
                                 @foreach($entreprises as $partenaire)
                                 <a href="#" class="btn btn-white rounded-pill me-1 mb-3 btn-logo btn-lift shadow">
                                     <span
