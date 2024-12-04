@@ -61,7 +61,7 @@ Route::get('/formation-continue', [PublicController::class, 'formationcontinue']
 Route::get('/formation-continue/diplomante', [PublicController::class, 'formationdiplomante'])->name('formationdiplomante');
 Route::get('/formation-continue/certifiante', [PublicController::class, 'formationcertifiante'])->name('formationcertifiante');
 Route::get('/formation-executive', [PublicController::class, 'formationexec'])->name('formationexec');
-Route::get('/formation-by-organisation', [PublicController::class, 'formationorg'])->name('formationorg');
+Route::get('/formation-entreprise', [PublicController::class, 'formationorg'])->name('formationorg');
 Route::get('/formation-elearning', [PublicController::class, 'formationelearning'])->name('formationelearning');
 Route::get('/formation-by-organisation/programme', [PublicController::class, 'formationprogramme'])->name('formationprogramme');
 Route::get('/formation-by-organisation/bycatalogue', [PublicController::class, 'formationcat'])->name('formationcat');
