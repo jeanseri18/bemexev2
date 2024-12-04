@@ -618,6 +618,9 @@
                         <a href="#" class="btn btn-white rounded-pill me-1 mb-3 btn-logo btn-lift shadow">
                             <span
                                 style="width: auto; height: 80px; display: flex; align-items: center; justify-content: center; padding: 10px;">
+                                <img src=" {{asset('pdf/Logo.png')}}" alt=""
+                                            class="partner-logo"
+                                            style="max-height: 100%; max-width: 100%; object-fit: contain;">
                                 @if($partenaire->image)
                                 <img src="{{ Storage::url($partenaire->image) }}" alt="{{ $partenaire->titre }}"
                                     class="partner-logo"
