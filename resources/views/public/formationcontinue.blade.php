@@ -38,7 +38,7 @@
                         <div class="card card-lift h-100 text-center text-lg-start">
                             <div class="p-2">
                                 <a href="{{ route('formationcertifiante') }}"><img
-                                        src="{{asset('../../assets/images/formationorg/portrait-senior-woman-professional-blazer-outdoors-laptop.webp')}}"
+                                        src="{{asset('../../assets/images/formationorg/portrait-senior-woman-professional-blazer-outdoors-laptop_11zon.webp')}}"
                                         alt="" class="img-fluid rounded-3 w-100" style=""></a>
                             </div>
                             <div class="card-body pt-2">
