@@ -16,7 +16,7 @@
                    
                     
 
-                    <img src="../../assets/DSC00050.png" class="card-img w-100 rounded" style="  background-size: cover;height:100%"
+                    <img src="{{asset('../../assets/DSC00050.webp')}}" class="card-img w-100 rounded" style="  background-size: cover;height:100%"
                         alt="Image">
 
                 </div>

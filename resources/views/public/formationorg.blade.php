@@ -37,7 +37,7 @@
             <div class="col-xl-6 col-md-6 col-12">
                 <div class="card card-lift h-100 text-center text-lg-start">
                     <div class="p-2">
-                        <a href="{{ route('formationcat') }}"><img src="../../assets/images/formationorg/form.jpg" alt=""
+                        <a href="{{ route('formationcat') }}"><img src="{{asset('../../assets/images/formationorg/form.webp')}}" alt=""
                                 class="img-fluid rounded-3 w-100"></a>
                     </div>
                     <div class="card-body pt-2">
@@ -49,7 +49,7 @@
             <div class="col-xl-6 col-md-6 col-12">
                 <div class="card card-lift h-100 text-center text-lg-start">
                     <div class="p-2">
-                        <a href="{{ route('formationprogramme') }}"><img src="../../assets/images/formationorg/handsome-young-businessman.jpg" alt=""
+                        <a href="{{ route('formationprogramme') }}"><img src="{{asset('../../assets/images/formationorg/handsome-young-businessman.webp')}}" alt=""
                                 class="img-fluid rounded-3 w-100"></a>
                     </div>
                     <div class="card-body pt-2">
