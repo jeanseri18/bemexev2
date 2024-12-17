@@ -27,61 +27,52 @@
                     <div class="card-body p-6">
                         <div>
                             <h3 class="mb-4">Pour plus d'informations ou pour planifier une consultation, remplissez notre formulaire de contact.</h3>
-                            <form>
-                                <div class="row">
-                                    <div class="col-xl-6 col-12">
-                                        <div class="mb-3">
-                                            <label for="contactName" class="form-label">
-                                                Nom
-                                                <span class="text-danger">*</span>
-                                            </label>
-                                            <input type="text" class="form-control" placeholder="" id="contactName" required="">
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 col-12">
-                                        <div class="mb-3">
-                                            <label for="contactPhone" class="form-label">
-                                                Téléphone
-                                                <span class="text-danger">*</span>
-                                            </label>
-                                            <input type="text" class="form-control" placeholder="" id="contactPhone" required="">
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 col-12">
-                                        <div class="mb-3">
-                                            <label for="contactWhatsNumber" class="form-label">
-                                                Numéro Whatsapp
-                                                <span class="text-danger">*</span>
-                                            </label>
-                                            <input type="text" class="form-control" placeholder="" id="contactWhatsNumber" required="">
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 col-12">
-                                        <div class="mb-3">
-                                            <label for="contactEmail" class="form-label">
-                                                Email
-                                                <span class="text-danger">*</span>
-                                            </label>
-                                            <input type="email" class="form-control" placeholder="" id="contactEmail" required="">
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="mb-3">
-                                            <label for="contactsubject" class="form-label">Objet</label>
-                                            <input type="text" class="form-control" placeholder="" id="contactsubject">
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="mb-3">
-                                            <label for="contactMessage" class="form-label">Message</label>
-                                            <textarea rows="3" class="form-control" placeholder="" id="contactMessage"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <button type="submit" class="btn btn-primary">Envoyer la demande</button>
-                                    </div>
-                                </div>
-                            </form>
+                            <form action="{{ route('contact.submit') }}" method="POST">
+    @csrf
+    <div class="row">
+        <div class="col-xl-6 col-12">
+            <div class="mb-3">
+                <label for="contactName" class="form-label">Nom <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="contactName" id="contactName" required>
+            </div>
+        </div>
+        <div class="col-xl-6 col-12">
+            <div class="mb-3">
+                <label for="contactPhone" class="form-label">Téléphone <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="contactPhone" id="contactPhone" required>
+            </div>
+        </div>
+        <div class="col-xl-6 col-12">
+            <div class="mb-3">
+                <label for="contactWhatsNumber" class="form-label">Numéro Whatsapp <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="contactWhatsNumber" id="contactWhatsNumber" required>
+            </div>
+        </div>
+        <div class="col-xl-6 col-12">
+            <div class="mb-3">
+                <label for="contactEmail" class="form-label">Email <span class="text-danger">*</span></label>
+                <input type="email" class="form-control" name="contactEmail" id="contactEmail" required>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="mb-3">
+                <label for="contactsubject" class="form-label">Objet</label>
+                <input type="text" class="form-control" name="contactsubject" id="contactsubject">
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="mb-3">
+                <label for="contactMessage" class="form-label">Message</label>
+                <textarea rows="3" class="form-control" name="contactMessage" id="contactMessage"></textarea>
+            </div>
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Envoyer la demande</button>
+        </div>
+    </div>
+</form>
+ 
+                        
                         </div>
                     </div>
                 </div>

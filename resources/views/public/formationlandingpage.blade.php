@@ -318,7 +318,9 @@ Sous la direction experte d’Alain MARTEL, ancien Délégué général de L’I
 
     <div class="card col-md-6">
         <div class="card-body p-6">
-            <form>
+        <form method="POST" action="{{ route('send.email') }}">
+            
+    @csrf
                 <div class="row">
                     <!-- Nom de l'entreprise -->
                     <div class="col-6 mb-3">
@@ -326,7 +328,7 @@ Sous la direction experte d’Alain MARTEL, ancien Délégué général de L’I
                             Nom de l’entreprise
                             <span class="text-danger">*</span>
                         </label>
-                        <input type="text" class="form-control" id="companyName" placeholder="Entrez le nom de votre entreprise" required>
+                        <input type="text" name="companyName" class="form-control" id="companyName" placeholder="Entrez le nom de votre entreprise" required>
                     </div>
 
                     <!-- Nom et Prénoms -->
@@ -335,7 +337,7 @@ Sous la direction experte d’Alain MARTEL, ancien Délégué général de L’I
                             Nom et Prénoms
                             <span class="text-danger">*</span>
                         </label>
-                        <input type="text" class="form-control" id="fullName" placeholder="Entrez votre nom et prénom" required>
+                        <input type="text" name="fullName" class="form-control" id="fullName" placeholder="Entrez votre nom et prénom" required>
                     </div>
 
                     <!-- Votre Poste -->
@@ -344,7 +346,7 @@ Sous la direction experte d’Alain MARTEL, ancien Délégué général de L’I
                             Votre Poste
                             <span class="text-danger">*</span>
                         </label>
-                        <input type="text" class="form-control" id="jobTitle" placeholder="Entrez votre poste" required>
+                        <input type="text" class="form-control"  name="jobTitle" id="jobTitle" placeholder="Entrez votre poste" required>
                     </div>
 
                     <!-- Numéro de téléphone -->
@@ -353,7 +355,7 @@ Sous la direction experte d’Alain MARTEL, ancien Délégué général de L’I
                             Numéro de téléphone
                             <span class="text-danger">*</span>
                         </label>
-                        <input type="tel" class="form-control" id="phoneNumber" placeholder="Entrez votre numéro de téléphone" required>
+                        <input type="tel" class="form-control"  name="phoneNumber" id="phoneNumber" placeholder="Entrez votre numéro de téléphone" required>
                     </div>
 
                     <!-- Adresse E-mail -->
@@ -362,7 +364,7 @@ Sous la direction experte d’Alain MARTEL, ancien Délégué général de L’I
                             Adresse E-mail
                             <span class="text-danger">*</span>
                         </label>
-                        <input type="email" class="form-control" id="email" placeholder="Entrez votre adresse e-mail" required>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Entrez votre adresse e-mail" required>
                     </div>
 
                     <!-- Besoin en Formation -->
@@ -371,7 +373,7 @@ Sous la direction experte d’Alain MARTEL, ancien Délégué général de L’I
                             Votre Besoin en Formation
                             <span class="text-danger">*</span>
                         </label>
-                        <textarea class="form-control" id="trainingNeeds" rows="4" placeholder="Décrivez vos besoins en formation" required></textarea>
+                        <textarea class="form-control" name="trainingNeeds" id="trainingNeeds" rows="4" placeholder="Décrivez vos besoins en formation" required></textarea>
                     </div>
 
                     <!-- Bouton de soumission -->

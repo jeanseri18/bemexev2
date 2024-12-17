@@ -8,6 +8,12 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PartenaireController;
 use App\Http\Controllers\FormationController;
+use App\Http\Controllers\FormController;
+use App\Http\Controllers\ContactController;
+
+Route::post('/contact/submit', [ContactController::class, 'submitForm'])->name('contact.submit');
+
+Route::post('/send-email', [FormController::class, 'sendEmail'])->name('send.email');
 
 // Route for displaying all formations
 Route::get('formations', [FormationController::class, 'index'])->name('formations.index');
