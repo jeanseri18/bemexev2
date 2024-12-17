@@ -27,7 +27,7 @@
                     <div class="card-body p-6">
                         <div>
                             <h3 class="mb-4">Pour plus d'informations ou pour planifier une consultation, remplissez notre formulaire de contact.</h3>
-                            <form action="{{ route('contact.submit') }}" method="POST">
+                            <form action="{{ route('contactsubmit') }}" method="POST">
     @csrf
     <div class="row">
         <div class="col-xl-6 col-12">

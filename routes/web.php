@@ -11,7 +11,7 @@ use App\Http\Controllers\FormationController;
 use App\Http\Controllers\FormController;
 use App\Http\Controllers\ContactController;
 
-Route::post('/contact/submit', [ContactController::class, 'submitForm'])->name('contact.submit');
+Route::post('/contact/submit', [ContactController::class, 'submitForm'])->name('contactsubmit');
 
 Route::post('/send-email', [FormController::class, 'sendEmail'])->name('send.email');
 
