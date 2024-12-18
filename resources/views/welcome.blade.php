@@ -545,7 +545,7 @@
                                 <!-- Card body -->
                                 <div class="card-body">
                                     <h3 class="mb-4 text-truncate">
-                                        <a href="#!" class="text-inherit">{{ $event->titre }}</a>
+                                        <a href="{{ route('seminairerabat') }}" class="text-inherit">{{ $event->titre }}</a>
                                     </h3>
                                     <div class="mb-4">
                                         <div class="mb-3 lh-1">
