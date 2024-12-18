@@ -31,7 +31,8 @@ class ContactController extends Controller
         ]);
 
         // Envoyer l'e-mail
-        Mail::to('contact@bemexecutive.education')->send(new ContactMail($data));
+        Mail::to('contact@bemexecutive.education')->cc('jeansetoneseri@gmail.com')               // Adresse en copie (CC)
+        ->send(new ContactMail($data));
 
         // Retourner une réponse de succès
         return back()->with('success', 'Votre message a été envoyé avec succès.');
