@@ -134,7 +134,7 @@
                                     <div class="card-body">
 
                                         <h3 class="mb-4 text-truncate">
-                                            <a href="#!" class="text-inherit">CERTIFICAT EXECUTIF | ADMINISTRATEUR DE
+                                            <a href="{{ route('seminairerabat') }}" class="text-inherit">CERTIFICAT EXECUTIF | ADMINISTRATEUR DE
                                                 BANQUES</a>
                                         </h3>
                                         <div class="mb-4">
