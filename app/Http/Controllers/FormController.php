@@ -26,7 +26,7 @@ class FormController extends Controller
         ]);
     
         // Envoyer l'e-mail
-        Mail::to('contact@bemexecutive.education')->cc('jeansetoneseri@gmail.com')               // Adresse en copie (CC)
+        Mail::to('contact@bemexecutive.education')->cc('nycisse@bemexecutive.education')               // Adresse en copie (CC)
         ->send(new FormSubmissionMail($data));
     
         // Rediriger avec un message de succès
